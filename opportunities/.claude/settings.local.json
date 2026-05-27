@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc \"C:\\\\Users\\\\lelub\\\\Downloads\\\\building_career_path\\\\[Shared] Ngoc_Le_Resume.docx\" -o /tmp/resume_output.md)",
+      "Bash(python \"C:/Users/lelub/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/81320525-bbc6-4160-bd03-7588990ccbf6/e6fe889a-b2af-469c-808c-4d99765b7d19/skills/docx/scripts/office/unpack.py\" \"C:/Users/lelub/Downloads/building_career_path/[Shared] Ngoc_Le_Resume.docx\" /tmp/resume_unpacked/)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:longnguyen.info)",
+      "WebSearch",
+      "WebFetch(domain:scholar.google.com)"
+    ]
+  }
+}

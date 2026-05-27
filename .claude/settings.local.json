@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(py:*)",
+      "Bash(find C:Userslelub.claude -type d -name *personal*therapist*)",
+      "Bash(find C:/Users/lelub/.claude/projects/C--Users-lelub-OneDrive-Documents-world-class-personal-psychologist-therapist -type f -name *.md)",
+      "Bash(find C:/Users/lelub/.claude/plugins -type d -name *skill*)",
+      "Bash(find C:/Users/lelub/.claude/plugins -type f -name *.json -o -name *.md)",
+      "Bash(xargs grep:*)",
+      "WebSearch",
+      "Bash(python -c \":*)",
+      "Bash(pip install:*)",
+      "Bash(mv gap_year_workbook.md gap_year_transition_plan_v2.md hypothesis_schedule.md planning/)",
+      "Bash(mv Financial_Positioning_Workbook_updated.xlsx financial_snapshot.md finance/)",
+      "Bash(mv nordic_phd_environment_research.md research/)",
+      "Bash(mv reflection_book.md 100-list-before-i-die.txt social_network.md personal/)",
+      "Bash(find 'C:\\\\Users\\\\lelub\\\\Downloads\\\\Gap Year Design Sprint' -type f -name *.md -o -name *.txt -o -name *.json)",
+      "mcp__130eb50e-64b9-45a7-8129-e6b06ddc6df5__gcal_create_event",
+      "Bash(find C:UserslelubAppDataRoamingClaudelocal-agent-mode-sessionsskills-plugin -name *.md -o -name SKILL*)",
+      "Bash(mkdir -p 'C:\\\\Users\\\\lelub\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\81320525-bbc6-4160-bd03-7588990ccbf6\\\\e6fe889a-b2af-469c-808c-4d99765b7d19\\\\skills\\\\phd-research-supervisor')",
+      "Bash(mkdir -p 'C:\\\\Users\\\\lelub\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\81320525-bbc6-4160-bd03-7588990ccbf6\\\\e6fe889a-b2af-469c-808c-4d99765b7d19\\\\skills\\\\phd-research-assistant')",
+      "Bash(find C:UserslelubAppDataRoamingClaude -type f \\\\\\(-name *.json -o -name *.yaml -o -name *.yml -o -name *.toml \\\\\\))",
+      "Bash(find C:Userslelub.claude -path *scheduled-tasks* -type d)",
+      "WebFetch(domain:www.diva-portal.org)",
+      "WebFetch(domain:intra.kth.se)",
+      "WebFetch(domain:wasp-sweden.org)",
+      "WebFetch(domain:kth.diva-portal.org)"
+    ]
+  }
+}
