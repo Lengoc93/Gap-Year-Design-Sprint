@@ -152,35 +152,46 @@ Net_S2b = Loss_S2b (deposit) − Income_big_items
 |-------------|------|-------------------|---------------|---------------------|---------------|---------------------|
 | **Singapore** | Visa-free | 1.5h | $150–250 | Low (familiar) | 3 days | None |
 | **Taiwan** | Visa-free (90 days) | 3–4h | $200–350 | Medium | 4 days | None — **recommended** |
-| **India (Pune — Raj)** | E-visa required | ~4h | $250–400 | Highest | Sequential: 10 days · **Parallel: 7 days** (visa applied Day 0) | **Travel must end before June 12** (Raj's flight window) |
+| **India (Pune — Raj)** | E-visa: **$140 USD, 4 days processing** | ~4h | $250–400 | Highest | **Parallel: 5 days** (visa applied Day 0, ready Day 4) | **Travel must end by June 12** (Raj's flight window) |
 
 ### Travel Duration
 
 ```
 T_travel = 9 days  (median, 80% confidence, satisfies ">1 week" constraint with 1 buffer day)
-T_travel_India_constrained = 8 days  (June 4 depart → June 12 return, to satisfy June 12 constraint)
+T_travel_India_constrained = 8 days  (June 5 depart → June 12 return, to satisfy June 12 constraint)
 ```
 
-### India Path — Special Constraint
+### India Path — Special Constraint + e-Visa Correction
 
-> **India travel must complete (return) before June 12, 2026**, to overlap with Raj's available travel window. This binding constraint changes how the India path must be executed.
+> **India travel must complete (return) by June 12, 2026**, to overlap with Raj's available travel window.
+> **e-Visa:** $140 USD, 4 days processing (corrected from earlier estimate).
+> **Access:** Singapore and Taiwan are visa-free, zero cost. India requires e-visa only.
 
-**Implication for sequencing:** India is only viable if the **e-visa application starts on Day 0 (today, May 28)** in parallel with the apartment exit process. Sequential processing (wait for MH exit, then apply visa) makes India unreachable under any scenario.
+**With 4-day processing, visa applied May 28 → ready June 1.** This is earlier than previously modelled (was 6 days). It changes India viability significantly — see updated parallel model below.
 
-**India parallel processing model:**
+**India parallel processing model (corrected):**
 
 ```
-T_India_parallel = max(T_MH_exit_S2b, T_visa_processing) + T_booking
-                 = max(4 days, 6 days) + 1 day
-                 = 7 days from D₀
+T_India_parallel = max(T_MH_exit, T_visa_processing) + T_booking
 
-Departure: D₀ + 7 = June 4, 2026
-Return:    June 4 + 8 days = June 12, 2026  ✓ (meets "before June 12" constraint)
+S2b path:
+  = max(T_MH_exit_S2b=4, T_visa=4) + T_booking=1
+  = 4 + 1 = 5 days from D₀
 
-OB1_S2b_India_parallel = June 12 + T_HN_settle(3) = June 15, 2026
+  Departure: D₀ + 5 = June 2 (earliest) or June 5 (comfortable)
+  Return:    June 5 + 8 days = June 12 ✓  (June 2 + 8 = June 10 ✓)
+
+  OB1_S2b_India_parallel = June 12 + T_HN_settle(3) = June 15, 2026
+
+S1 path (Raj confirms):
+  Visa applied May 28 → ready June 1 (before Raj confirmation date)
+  Raj confirms by June 3 (Day 6) → book June 3 → depart June 5 → return June 12 ✓
+  Raj confirms by June 5 (Day 8) → depart June 7 → return June 15 → FAILS June 12 constraint ✗
+
+  OB1_S1_India_parallel (Raj by June 3) = June 12 + 3 = June 15, 2026  ✓
 ```
 
-**India is NOT viable under S1 (Raj):** By the time Raj confirms (June 5 earliest), departure would be June 12 at earliest → return June 20 → violates June 12 constraint. India path requires committing to S2b AND applying for the visa today.
+**India under S1 is NOW VIABLE** (changed from previous version) **if Raj confirms by June 3 (Day 6).** The 4-day visa processing means the visa is ready before Raj's confirmation deadline, removing the prior sequencing blocker. Apply visa today regardless of which scenario activates — it costs $140 and secures the India option under both S1 and S2b.
 
 ---
 
@@ -236,15 +247,19 @@ Format: `[T_MH_exit] + [T_travel_prep] + [T_travel] + [T_settle=3] = Total → O
 8 + 4 + 9 + 3 = 24 days → June 21 → PASSES ✓
 ```
 
-**S1 × India** — INFEASIBLE
+**S1 × India — parallel visa (P ≈ 0.293, conditional)**
 ```
-Raj confirms Day 8 (June 5) → earliest depart June 12 → return June 20
-→ VIOLATES June 12 return constraint ✗
+Requires: e-visa applied May 28 → ready June 1 (4 days processing)
 
-Even fast-close (Day 6, June 3) + parallel visa (ready June 4):
-  Depart June 5 → return June 13 → STILL VIOLATES June 12 constraint ✗
+Fast-close (Raj by Day 6 = June 3):
+  Book June 3 → depart June 5 → return June 12 ✓
+  max(6, 4) + 1 + 8 + 3 = 6 + 1 + 8 + 3 = 18 days → June 15 → PASSES ✓
 
-S1 × India is infeasible regardless of Raj close speed.
+Midpoint-close (Raj by Day 8 = June 5):
+  Depart June 7 → return June 15 → VIOLATES June 12 constraint ✗
+
+S1 × India PASSES only if Raj confirms by June 3.
+Probability conditional on Raj fast-close ≈ 40% of S1 = 0.26 of total.
 ```
 
 ---
@@ -288,14 +303,17 @@ Requires: apply India e-visa TODAY (May 28)
 |----------|-------------|:------:|:------:|:--------:|:--------:|:-----:|:------------:|:-------:|:-----------:|
 | S1 | Singapore | 8 | 3 | 9 | 3 | 23 | **June 20** | ✓ | 0.065 |
 | S1 | Taiwan | 8 | 4 | 9 | 3 | 24 | **June 21** | ✓ | 0.293 |
-| S1 | India | — | — | — | — | — | ~~Infeasible~~ | ✗ | 0.293 |
+| S1 | India (parallel‖, Raj by June 3) | 6 | 1 | 8 | 3 | 18 | **June 15** | ✓ | ~0.117 |
+| S1 | India (parallel‖, Raj after June 3) | 8+ | — | — | — | — | ~~June 16+~~ | ✗ | ~0.176 |
 | S2a | Any | 38 | any | 9 | 3 | 50+ | ~~July 17+~~ | ✗ | 0.20 |
 | **S2b** | Singapore | **4** | 3 | 9 | 3 | **19** | **June 16** | ✓ | 0.015 |
 | **S2b** | Taiwan | **4** | 4 | 9 | 3 | **20** | **June 17** | ✓ | 0.068 |
-| **S2b** | India (parallel‖) | **4‖6** | 1 | 8 | 3 | **18** | **June 15** | ✓ | 0.068 |
+| **S2b** | India (parallel‖) | **4** | 1 | 8 | 3 | **16** | **June 13** | ✓ | 0.068 |
 
-> ‖ India uses parallel formula: `max(T_MH_exit=4, T_visa=6) + T_booking=1 + T_travel=8 + T_settle=3`.
-> Travel constrained to 8 days to satisfy return-before-June-12 requirement.
+> ‖ India uses parallel formula: `max(T_MH_exit, T_visa=4) + T_booking=1 + T_travel=8 + T_settle=3`.
+> Visa ($140 USD, 4 days) applied May 28 → ready June 1, before any departure date.
+> Travel constrained to 8 days (depart June 5 → return June 12) to satisfy Raj flight window.
+> Singapore and Taiwan: visa-free, zero cost. India: $140 USD e-visa only.
 
 ---
 
@@ -303,39 +321,41 @@ Requires: apply India e-visa TODAY (May 28)
 
 ### Probability-Weighted OB1
 
-Using passing scenarios only (S1×India infeasible, S2a fails constraint):
+Using passing scenarios only (S1×India only passes if Raj confirms by June 3, S2a fails constraint):
 
 | Scenario × Destination | P | OB1 Days from D₀ | Weighted contribution |
 |------------------------|---|:-----------------:|----------------------:|
 | S1 × Taiwan | 0.293 | 24 | 7.03 |
 | S1 × Singapore | 0.065 | 23 | 1.50 |
+| S1 × India parallel (Raj by June 3) | 0.117 | 18 | 2.11 |
 | S2b × Taiwan | 0.068 | 20 | 1.36 |
-| S2b × India (parallel) | 0.068 | 18 | 1.22 |
+| S2b × India parallel | 0.068 | 16 | 1.09 |
 | S2b × Singapore | 0.015 | 19 | 0.29 |
-| **Total passing P** | **0.509** | | |
+| **Total passing P** | **0.626** | | |
 
 ```
-OB1_weighted = (7.03 + 1.50 + 1.36 + 1.22 + 0.29) / 0.509
-             = 11.40 / 0.509
-             = 22.4 days from D₀
+OB1_weighted = (7.03 + 1.50 + 2.11 + 1.36 + 1.09 + 0.29) / 0.626
+             = 13.38 / 0.626
+             = 21.4 days from D₀
 
-OB1_80pct = May 28 + 22 days = June 19, 2026
+OB1_80pct = May 28 + 21 days = June 18, 2026
 ```
 
 ### 80% Confidence Interval
 
 | Percentile | Scenario | OB1 Date |
 |------------|----------|----------|
-| Optimistic (S2b + India parallel) | S2b × India parallel | June 15 |
+| Optimistic (S2b + India parallel) | S2b × India parallel | **June 13** |
 | **Central (S1 + Taiwan)** | **S1 × Taiwan** | **June 21** |
 | Pessimistic (S1 + all delays) | S1 × Taiwan, all pessimistic | June 25 |
 
 ```
-OB1 80% CI = June 19 ± 6 days  →  [June 13, June 25]
+OB1 80% CI = June 18 ± 7 days  →  [June 11, June 25]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  OB1 = June 19, 2026  (80% confidence, weighted)
+  OB1 = June 18, 2026  (80% confidence, weighted)
   Most likely single scenario: June 21 (S1 × Taiwan)
+  Earliest possible OB1: June 13 (S2b × India parallel, visa today)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -447,37 +467,43 @@ If OB1 ≠ June 11 (the accepted start date), notify HR by **June 5** to formall
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  OB1 = June 19, 2026  (80% confidence, weighted)
+  OB1 = June 18, 2026  (80% confidence, weighted)
   Most likely single scenario: June 21 (S1 × Taiwan)
-  80% confidence interval: [June 13, June 25]
+  80% confidence interval: [June 11, June 25]
 
-  Recommended path: S1 (Raj) × Taiwan
-  Earliest possible OB1: June 15 (S2b × India parallel, visa today)
+  Recommended path: S1 (Raj) × Taiwan  OR  S1 × India if Raj by June 3
+  Earliest possible OB1: June 13 (S2b × India parallel, visa today)
   Days inside HR ceiling (S1 × Taiwan): 4 days of buffer
+  India e-visa: $140 USD, 4 days processing — apply today to keep option open
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ### Decision Tree
 
 ```
-TODAY (May 28)
+TODAY (May 28) — two parallel actions
 │
-├─ Message Raj → YES/NO by June 2
+├─ Message Raj → YES/NO by June 2 (or June 3 latest for India option)
 ├─ List big items on Marketplace
-├─ Scout Taiwan flights
-└─ DECIDE: India? → Apply e-visa TODAY or default to Taiwan
+├─ Scout flights (Taiwan + India both viable)
+└─ DECIDE India option: apply e-visa today ($140, ready June 1) to keep option live
+   Cost of applying = $140 sunk. Cost of not applying = India closed.
 
-JUNE 2
-├── Raj YES → S1 path
+JUNE 2–3
+├── Raj YES by June 3 → S1 path
+│   ├─ India option: depart June 5, return June 12 → OB1 = June 15 ✓
+│   ├─ Taiwan option: depart June 5–6 → OB1 = June 20–21 ✓
+│   └─ Choose: India (higher growth ROI) or Taiwan (safer, cleaner)
+│
+├── Raj YES after June 3 → India window closed
 │   ├─ Book Taiwan (depart June 5–6)
-│   ├─ Light pack + handoff apartment
 │   └─ OB1 = June 20–21 ✓
 │
 └── Raj NO / SILENT → S2b path
-    ├─ Accept deposit formula loss (~1.5M VND)
+    ├─ Accept deposit formula loss (~1.5M VND base case)
     ├─ 3–5 day exit: move + sell big items (June 3–7)
-    ├─ If India visa applied May 28: depart June 4 → OB1 = June 15 ✓
-    └─ If Taiwan: depart June 7–8 → OB1 = June 18–19 ✓
+    ├─ If India visa applied May 28: depart June 5 → OB1 = June 13–15 ✓
+    └─ If Taiwan: depart June 7–8 → OB1 = June 17–18 ✓
 
 JUNE 4 (if S2a active): pivot to S2b regardless of tenant status
 
@@ -501,4 +527,4 @@ JUNE 5: notify HR of shifted start date (if OB1 ≠ June 11)
 
 ---
 
-*v1 built: May 28, 2026 · v2 updated: May 28, 2026 (T_HN_settle 2→3 days; India June 12 return constraint; India infeasible under S1; S2b×India parallel path added) · For Ngọc's personal use only*
+*v1: May 28, 2026 · v2: T_HN_settle 2→3; India June 12 constraint; India infeasible under S1 · v3: India e-visa corrected to $140/4 days; S1×India viable if Raj by June 3; SG+TW confirmed free access; OB1 updated to June 18 weighted · For Ngọc's personal use only*
