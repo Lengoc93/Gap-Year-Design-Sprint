@@ -16,7 +16,7 @@ Vingroup HR has requested: annual package structure (13th month + bonus), net sa
 | **Role** | PM — AI Alignment, Giáp Lê's Team (Track C) |
 | **Entity** | Vin Smart Future (VinGroup subsidiary) |
 | **Location** | Hà Nội (mandatory, min. 2 months; team is 100% HN) |
-| **Status** | Verbal green flag (May 14) — awaiting offer letter |
+| **Status** | **ACCEPTED** — Official offer letter received May 27, 2026; start June 11, 2026 |
 | **Workload** | Estimated 1.7× TrustingSocial workload (Giáp confirmed 1.5×; model uses 1.7×) |
 | **SI Base** | Vingroup pays social insurance on 70% of gross (not 100%) |
 | **Seniority** | T4 range (100–120M VND gross/mo, 2024 reference + inflation) |
@@ -35,6 +35,20 @@ Vingroup HR has requested: annual package structure (13th month + bonus), net sa
 | **Bonus structure?** | Ask 2–3 months gross, KPI-linked (50% individual / 50% team) |
 | **Net salary expectation?** | **103–110M VND/month net** (anchor: 140M gross; target land: 130M gross) |
 | **Onboarding date?** | Recommend: **June 9, 2026** (fallback: June 16) |
+
+### Actual Outcome (May 27, 2026) — ACCEPTED
+
+| Item | Detail |
+|---|---|
+| **Official gross** | 120,791,541 VND/month |
+| ↳ Lương cơ bản (SI basis) | 84,554,079 VND/month |
+| ↳ Thưởng ý thức chất lượng | 36,237,462 VND/month |
+| **Actual net (SI + PIT, 1 dep.)** | **96,860,000 VND/month** (calculator-confirmed via topcv.vn) |
+| **Probation salary** | 102,672,810 VND/month (85% gross, no SI, 2 months) |
+| **Start date (accepted)** | **June 11, 2026** — negotiated; June 11 agreed per request for change from my side |
+| **Gap vs. target (103.1M net)** | −6,240,000 VND/month (−6.1%) |
+| **Gap vs. floor (96.3M net)** | +560,000 VND/month — above acceptable floor ✓ |
+| **Decision** | **ACCEPTED** — H1/H3 strategic value (AI governance mandate, international scope, Giáp's coaching model) justifies the 6.24M/month delta vs. target |
 
 ---
 
@@ -454,11 +468,11 @@ She has been on gap year since February 2026. It's now May 2026 — 3 months in.
 |---|---|
 | May 19–25 | Receive and review offer letter. Send HR response. Begin salary negotiation by phone/Zalo. |
 | May 26 – June 1 | Negotiate and finalise terms. Virtually scout HN apartments via referral agents (Giáp's contacts) or Batdongsan.vn. Shortlist 2–3 options. |
-| June 2–5 | Sign HN apartment. Pay deposit. Pack Batch 1 (essentials): clothes, laptop, work materials, critical documents. Ship/carry to HN. |
-| June 6–8 | Arrive HN. Settle into apartment. Buy basics locally. Rest and mentally prepare. |
-| **June 9 ★** | **FIRST DAY AT VINGROUP.** You arrive grounded, housed, and ready — not frazzled from last-minute logistics. |
+| June 2–7 | Sign HN apartment. Pay deposit. Pack Batch 1 (essentials): clothes, laptop, work materials, critical documents. Ship/carry to HN. |
+| June 8–10 | Arrive HN. Settle into apartment. Buy basics locally. Rest and mentally prepare. |
+| **June 11 ★ (ACTUAL)** | **FIRST DAY AT VINGROUP.** Start date negotiated to June 11 per request for change from my side (original preference June 9; June 11 agreed). Arrives grounded, housed, and ready. |
 
-> Recommend June 9 over any earlier date. Starting on June 2 looks eager (reads as desperate or underemployed). June 16 is acceptable but wastes 1 week of onboarding time that Giáp is waiting for. June 9 signals confident timing, not urgency.
+> **ACTUAL OUTCOME:** Start date confirmed as **June 11, 2026**. Requested change from the company's initial proposal; June 11 was agreed. Two extra days vs. June 9 preference — effectively optimal (more settling time, still within the week).
 
 ---
 
@@ -556,6 +570,15 @@ Current self-made net worth (Mar 2026): **8,517,285,894 VND (~8.5B).** Target: *
 > - **Walk-away trigger:** < 120M gross OR 13th month discretionary OR all-insurance base (BHXH+BHYT+BHTN at 70%) not confirmed in writing
 > - **Onboarding date:** June 9, 2026 (primary) / June 16, 2026 (fallback)
 > - **21B roadmap reaches 1,002M/yr at 130M gross — 35% above the 739M annual deployment target. This is the minimum price to pay for this opportunity.**
+
+> ✅ **ACTUAL OUTCOME — ACCEPTED (May 27, 2026)**
+>
+> - **Official gross:** 120,791,541 VND/month → **Net: 96,860,000 VND/month** (above 96.3M floor ✓)
+> - **Probation gross:** 102,672,810 VND/month (85%, 2 months, no SI)
+> - **Structure:** Lương cơ bản 84,554,079 (SI basis) + Thưởng ý thức chất lượng 36,237,462
+> - **Start date:** **June 11, 2026** — negotiated per request for change from my side
+> - **Gap vs. 103.1M target:** −6.24M/month (−6.1%) — accepted on H1/H3 strategic grounds
+> - **21B roadmap at 96.86M net:** monthly savings ~69.7M → annual ~836M + 91M rental = ~927M/yr (above 739M target ✓)
 
 ---
 

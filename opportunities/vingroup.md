@@ -54,7 +54,7 @@
 
 **Outcome (May 13):** Closed — Out of Budget. Mao's team quota allows only 1 PM; he decided to keep Hà (existing PM). I am the out-of-budget case. Track B is closed.
 
-### Track C — Giáp Lê's Team (AI Alignment / BKTT) — `Offer Details Received — Pending Negotiation`
+### Track C — Giáp Lê's Team (AI Alignment / BKTT) — `Offer Letter Received — Accepted (June 11, 2026)`
 
 - **Lead:** Giáp Lê (personally leads AI Alignment; also overall team builder for BKTT)
 - **Domain (CONFIRMED May 14 — interview):** AI Alignment is **NOT** part of the encyclopedia product. It is a **separate gateway service** — a solution provider that acts as one of the final response-check layers for AI agents serving all Vin P&L services, across geographic markets.
@@ -94,19 +94,30 @@
 - Phối hợp Delivery team để release sản phẩm đúng thời hạn và chất lượng
 - Theo dõi giám sát, nâng cấp hiệu năng sản phẩm
 
-#### Offer Package (received May 26)
+#### Offer Package (official letter received May 27, 2026)
 
-- **Base salary:** 95M VND (net)
-  - Probation: 85% of salary (= ~80.75M VND net), no social insurance during probation
-  - Post-probation: social insurance paid on 70% of gross
-  - **Contract guaranteed 13th month salary**
+- **Official gross salary:** 120,791,541 VND/month
+  - Lương cơ bản (insurance basis): 84,554,079 VND/month
+  - Thưởng ý thức chất lượng: 36,237,462 VND/month
+  - **Net (after SI + PIT, 1 dependent):** 96,860,000 VND/month ✓ (calculator-confirmed)
+- **Probation salary:** 102,672,810 VND/month (85% of official gross)
+  - No social insurance deducted during 2-month probation period
+- **Start date:** 11/06/2026 (June 11, 2026) — 2-month probation
+- **Location:** TechnoPark Tower, Vinhomes Ocean Park, Đa Tốn, Gia Lâm, Hà Nội
+- **Working hours:** 44h/tuần (onsite Mon–Fri, alternating Saturday WFH)
 - **Level:** T4 — includes **team management requirement as KPI**
-- **Annual leave:** 12 days/year
-- **Performance bonus:** Dependent on business and team performance (variable)
+- **Annual leave:** 12 days/year; +1 day per 5 years of service
+- **13th month salary:** Per company policy (contract guaranteed)
+- **Performance bonus:** Per company KPI policy (variable)
 - **Other benefits:**
-  - Lunch allowance (hỗ trợ ăn trưa)
-  - Premium healthcare package (currently PVI — described as "khá xịn")
-  - Vingroup employee perks: discounts and priority slots for Vinpearl, VinMec, VinSchool, VinFast, Vinhomes — varies by level and tenure
+  - Lunch support (hỗ trợ ăn ca)
+  - Premium healthcare (Bảo hiểm Y tế theo chế độ chính thức + Bảo hiểm sức khỏe per company policy)
+  - Vingroup employee perks: Vinpearl, VinMec, VinSchool, VinFast, Vinhomes discounts — varies by level and tenure
+
+**Package vs. negotiation targets:**
+- Gross 120.79M → Net 96.86M — sits at T4 high floor (target was 130M gross / 103.1M net)
+- Net gap vs. target: −6.24M/month (about −6% below 103.1M target)
+- Accepted: role strategic value (H1/H3), Giáp's coaching model, and international scope justify the delta at this stage
 
 #### Working Hours & Responsibility
 
@@ -674,21 +685,22 @@ Both teams report to the same VP (Phạm Nhật Hoàng, heir). Management style,
 | May 15 | Follow-up call with Giáp — **Scope & stability upgraded** | AI Alignment = strategic long-run investment, not subject to typical Vin pivoting. Scope: across P&Ls AND across countries — must be internationally qualified. 12-month objective: operational international alignment service. Role trajectory: IC → product team leader. Must relocate HN min. 2 months. Housing: ~6.5M VND/mo studio. Remaining blocker: official offer letter + package negotiation. |
 
 | May 26 | Offer details received — **Package assessment needed** | Scope confirmed via Giáp: AI Alignment PM + AI products across khối, international expansion, cross-functional with legal/compliance/PnL/delivery. T4 level with team management KPI. **95M VND net (target was ~140M gross).** Not directly comparable — need gross-to-net conversion to assess gap accurately. 13th month guaranteed. Mon–Fri onsite + alternating Sat WFH. Premium healthcare (PVI) + Vingroup employee perks. Probation at 85% with no insurance. |
+| May 27 | **Official offer letter received — Accepted** | VSF_OL_Le Lu Bao Ngoc, dated 27/05/2026. Gross 120,791,541 VND (net 96,860,000 VND, calculator-confirmed). Probation 102,672,810 VND/mo (85% gross, no SI). Start date: **June 11, 2026** (negotiated — original preference was June 9; June 11 agreed as requested change from my side). Location: TechnoPark Tower, Vinhomes Ocean Park, Gia Lâm, HN. 44h/week, 2-month probation. Net 96.86M vs. target 103.1M — accepted: H1 + H3 strategic value justifies 6.24M/month delta at current stage. |
 
-**Current stance:** `Offer Details Received — Pending Negotiation (Track C — AI Alignment)` — Scope of work confirmed by Giáp (May 26): PM for AI Alignment + AI products across khối, international market expansion, cross-functional coordination with legal/compliance/PnL/delivery teams, product release quality ownership, performance monitoring. T4 level with team management as KPI. **Package: 95M VND net (target was ~140M gross — not directly comparable, need gross-to-net conversion).** 13th month salary guaranteed. Working hours: Mon–Fri onsite 8h/day + alternating Saturday WFH. Benefits include PVI premium healthcare + Vingroup employee perks. Must relocate HN (min. 2 months).
+**Current stance:** `Accepted — Starting June 11, 2026 (Track C — AI Alignment, VinSmart Future)` — Official offer letter (VSF, 27/05/2026) received and accepted. Gross: 120,791,541 VND/month → Net: 96,860,000 VND/month. Probation (2 months): 102,672,810 VND/month. Start date: June 11, 2026 (negotiated from company's initial proposal; June 11 agreed upon request for change). Scope: PM for AI Alignment + AI products across khối, international market expansion. T4 level, 44h/week, TechnoPark Tower HN.
 
-**Blockers before deciding:**
+**Blockers before deciding — ALL RESOLVED:**
 
 - ~~Director interview (Thu Mar 19) — primary data collection event~~ DONE
 - ~~Mao pre-interview call (Mar 24) — scope and role clarification~~ DONE
 - ~~Track B panel interview~~ CLOSED — Out of Budget
 - ~~Track C interview with Giáp Lê (May 14)~~ DONE — Verbal Green Flag
 - ~~Due diligence call with Dương (May 14)~~ DONE — Leadership profile confirmed
-- ~~Official offer details from HR~~ RECEIVED May 26 — 95M VND net, T4 level
-- **NEXT:** Package negotiation — 95M net vs. ~140M gross target (need gross-to-net conversion to assess real gap)
-- Post-interview compass filter scoring — PENDING (fill after Dương call + reflection)
-- Honest separation of "wanting the win" from "wanting the work" — still critical before final accept
-- Tam/Thư self-doubt trigger processed separately (Dr. Sarah Chen session)
+- ~~Official offer details from HR~~ RECEIVED May 26 — package details confirmed
+- ~~Package negotiation~~ RESOLVED — Gross 120,791,541 / Net 96,860,000 accepted
+- ~~Official offer letter~~ RECEIVED May 27, 2026 — VSF_OL_Le Lu Bao Ngoc signed
+- ~~Onboarding date~~ CONFIRMED — June 11, 2026 (negotiated per request)
+- **NEXT ACTIONS:** HN apartment sourcing · Batch 1 relocation logistics · Pre-onboarding Zalo group with Giáp's team
 
 **What would make this a YES:**
 
