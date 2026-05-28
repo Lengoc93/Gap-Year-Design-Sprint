@@ -1,0 +1,18 @@
+step,item,item_vn,amount_vnd,calc_basis,rate_or_rule,notes
+1,gross_salary,Lương Gross,120791541,,,Official monthly gross
+2,si_bhxh_employee,BHXH người lao động (8%),-3744000,capped_base_46800000,8%,"Cap = 20 × lương cơ sở (2340000) = 46800000; SI base 84554079 > cap → use cap"
+2,si_bhyt_employee,BHYT người lao động (1.5%),-702000,capped_base_46800000,1.50%,"Cap = 46800000; SI base > cap → use cap"
+2,si_bhtn_employee,BHTN người lao động (1%),-845541,luong_co_ban_84554079,1%,"BHTN cap = 20 × lương tối thiểu vùng I (4960000) = 99200000; 84554079 < cap → use lương cơ bản"
+2,total_si_employee,Tổng BHXH+BHYT+BHTN (NLĐ),-5291541,,,Sum of above three items
+3,income_before_tax,Thu nhập trước thuế,115500000,,,"Gross (120791541) - total SI (5291541)"
+4,personal_deduction,Giảm trừ gia cảnh bản thân,-15500000,,,"Per Luật TNCN số 109/2025/QH15; effective 2026-01-01 (was 11000000 under old law)"
+4,dependent_deduction,Giảm trừ người phụ thuộc (1 người),-6200000,,1 dependent (mẹ),"Per 2026 law: 6200000/dependent (was 4400000 under old law)"
+4,total_deductions,Tổng giảm trừ,-21700000,,,Personal (15500000) + dependent (6200000)
+5,taxable_income,Thu nhập chịu thuế,93800000,,,"Income before tax (115500000) - total deductions (21700000)"
+6,pit_bracket_1,Bậc 1 (0–10 triệu; 5%),500000,10000000,5%,10000000 × 5%
+6,pit_bracket_2,Bậc 2 (10–30 triệu; 10%),2000000,20000000,10%,20000000 × 10%
+6,pit_bracket_3,Bậc 3 (30–60 triệu; 20%),6000000,30000000,20%,30000000 × 20%
+6,pit_bracket_4,Bậc 4 (60–100 triệu; 30%),10140000,33800000,30%,"33800000 × 30% (93800000 - 60000000 = 33800000 in this band)"
+6,pit_bracket_5,Bậc 5 (trên 100 triệu; 35%),0,0,35%,Taxable income does not reach this bracket
+6,total_pit,Tổng thuế TNCN,-18640000,,,Sum of all brackets
+7,net_salary,Lương NET,96860000,,,"Income before tax (115500000) - total PIT (18640000); confirmed via topcv.vn"

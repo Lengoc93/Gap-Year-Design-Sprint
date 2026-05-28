@@ -1,0 +1,23 @@
+metric,value,unit,source
+offer_date,2026-05-27,date,Official offer letter VSF_OL_Le Lu Bao Ngoc
+start_date,2026-06-11,date,"Negotiated; candidate requested change from company's initial proposal"
+probation_duration,2,months,Offer letter
+role_title,Chuyên gia Quản lý Sản phẩm,text,Offer letter
+role_title_en,Product Management Expert,text,Translation
+seniority_level,T4,text,"Vingroup T-level; T1=VP (highest); T4 = mid-senior"
+team,AI Alignment / BKTT,text,Under Giáp Lê
+reporting_to,Giáp Lê,text,Middle manager between PM and Huy Ngô (Product Director AI)
+contract_entity,VinSmart Future,text,"Vingroup subsidiary; not Vingroup parent directly"
+work_location,TechnoPark Tower,text,"Vinhomes Ocean Park, Đa Tốn, Gia Lâm, Hà Nội"
+relocation_required,yes,text,HN mandatory; minimum 2 months onsite
+gross_official_monthly,120791541,VND/month,Offer letter confirmed
+net_official_monthly,96860000,VND/month,Calculator-confirmed (topcv.vn) — 1 dependent
+gross_probation_monthly,102672810,VND/month,"85% of official gross; no SI deducted during probation"
+si_declaration_base,84554079,VND/month,"Lương cơ bản = 70% of gross; SI calculated on this base"
+si_total_employee_monthly,5291541,VND/month,BHXH + BHYT + BHTN employee share
+pit_monthly,18640000,VND/month,PIT on taxable income 93.8M (1 dependent)
+employer_total_monthly_cost,131231082,VND/month,Gross + all employer SI contributions
+annual_leave_base,12,days/year,"+1 day per 5 additional years of service"
+working_hours_per_week,44,hours/week,Mon–Fri 8h/day + alternating Saturday WFH
+13th_month_salary,per_company_policy,text,Contractually noted in offer letter
+performance_bonus,variable,text,Depends on business and team KPI

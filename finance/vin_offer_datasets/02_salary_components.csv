@@ -1,0 +1,9 @@
+component,component_vn,amount_vnd,pct_of_official_gross,applies_to,si_eligible,notes
+luong_co_ban,Lương cơ bản,84554079,69.99,official_only,yes,"SI declaration base; 70% of official gross — all three SI types (BHXH/BHYT/BHTN) calculated on this amount"
+thuong_chat_luong,Thưởng ý thức chất lượng,36237462,30.00,official_only,no,Quality performance component; excluded from SI calculation basis
+total_gross_official,Tổng lương Gross (chính thức),120791541,100.00,official_only,partial,Sum of lương cơ bản + thưởng chất lượng
+gross_probation,Lương thử việc,102672810,85.00,probation_only,no,"85% of official gross; no SI deducted during 2-month probation period"
+employee_si_total,Tổng bảo hiểm người lao động,-5291541,-4.38,official_only,n/a,BHXH + BHYT + BHTN employee contribution (see 03_tax_insurance_detail.csv)
+income_before_tax,Thu nhập trước thuế,115500000,95.62,official_only,n/a,Gross - total employee SI
+total_pit,Thuế TNCN,-18640000,-15.43,official_only,n/a,Progressive PIT on 93.8M taxable income (see 03_tax_insurance_detail.csv)
+net_salary,Lương NET,96860000,80.19,official_only,n/a,Take-home after all deductions; calculator-confirmed

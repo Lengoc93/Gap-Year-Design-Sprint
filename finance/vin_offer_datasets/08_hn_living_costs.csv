@@ -1,0 +1,15 @@
+expense_category,expense_vn,hcm_vnd_monthly,hn_studio_vnd_monthly,varies_by_unit_size,notes
+rent,Thuê nhà,9000000,6500000,yes,"HN studio 27–36m² per Giáp Lê referral (Cầu Giấy / Mỹ Đình area); monthly figure; excludes deposit"
+building_mgmt_water_internet,Phí quản lý + nước + internet,450000,550000,slightly,Building management fee varies slightly by complex; internet included in most studio quotes
+electricity,Điện,350000,400000,no,"Single-person usage constant regardless of unit size; +~100K/month for heating Nov–Feb (4 months = ~33K/month annualised)"
+food_dining,Ăn uống,4000000,3500000,no,HN food costs slightly lower; personal spend; includes eating out ~4×/week
+transport,Đi lại,2000000,1900000,no,"Grab + occasional taxi; varies by distance to TechnoPark Tower, not unit size"
+phone_mobile,Điện thoại,200000,200000,no,Mobile data plan unchanged
+family_support_me,Hỗ trợ gia đình (mẹ),5000000,5000000,no,Fixed monthly transfer regardless of location
+shopping_personal,Mua sắm cá nhân,2000000,2000000,no,Clothing / personal care / misc
+medical_avg,Y tế (trung bình),4000000,4000000,no,Estimated monthly average; partially offset by Vin premium health insurance benefit
+home_visit_tay_ninh,Về thăm nhà Tây Ninh (khấu hao),500000,2300000,no,"HN→HCM budget flight 2.0–3.6M return (Vietjet/Bamboo) + bus HCM→Tây Ninh 300–500K; ~8 trips/year → ~2.3M/month amortised"
+buffer_other,Dự phòng / khác,1000000,1000000,no,Contingency
+total_monthly,Tổng chi tháng,28500000,27200000,,HN studio costs ~1300000/month less than HCM
+hn_studio_deposit_lock,Tiền đặt cọc (tạm thời khóa),0,28000000,n/a,"3 months deposit + 1 month upfront = 4 × 7000000; fully returned at lease end; not a sunk cost"
+hn_annual_total,Tổng chi HN / năm,342000000,326400000,,27200000 × 12; HN saves ~15600000/year vs HCM

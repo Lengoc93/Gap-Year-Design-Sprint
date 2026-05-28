@@ -1,0 +1,8 @@
+item,item_vn,amount_vnd,rate_pct,calc_basis,notes
+gross_salary,Lương Gross NLĐ,120791541,,,
+employer_bhxh,BHXH người sử dụng lao động (17%),7956000,17,capped_base_46800000,"Cap = 20 × lương cơ sở (2340000) = 46800000; SI base 84554079 > cap → use cap"
+employer_bhln_bnn,"BHTNLĐ–BNN (0.5%)",234000,0.5,capped_base_46800000,"Bảo hiểm tai nạn lao động – bệnh nghề nghiệp; employer only; capped base 46800000"
+employer_bhyt,BHYT người sử dụng lao động (3%),1404000,3,capped_base_46800000,"Cap = 46800000; SI base > cap → use cap"
+employer_bhtn,BHTN người sử dụng lao động (1%),845541,1,luong_co_ban_84554079,"Same base as employee BHTN; cap 99200000 not reached"
+total_employer_si,Tổng bảo hiểm NSDLĐ,10439541,,,BHXH + BHTNLĐ-BNN + BHYT + BHTN
+total_cost_to_employer,Tổng chi phí NSDLĐ,131231082,,,Gross + total employer SI; confirmed via topcv.vn

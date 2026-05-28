@@ -1,0 +1,22 @@
+category,benefit_id,benefit_name,benefit_name_vn,value_or_rate,frequency,quantified_vnd,negotiable,notes
+salary,B01,Official gross salary,Lương chính thức,120791541 VND,monthly,120791541,no,Confirmed in offer letter
+salary,B02,Net salary,Lương NET,96860000 VND,monthly,96860000,no,After SI + PIT; 1 dependent; calculator-confirmed
+salary,B03,Probation salary,Lương thử việc,102672810 VND,monthly (2 months),102672810,no,85% of official gross; no SI during probation
+salary,B04,13th month salary,Lương tháng 13,per company policy,annual,~96860000 (estimated net),no,Per offer letter clause; policy-based guarantee
+bonus,B05,Performance bonus,Thưởng hiệu suất,variable,annual,unknown,partial,"Depends on business KPI (team) and individual KPI; no fixed amount disclosed"
+insurance,B06,BHXH social insurance,Bảo hiểm xã hội,employee 8% / employer 17%,monthly,employee 3744000 / employer 7956000,no,Capped at 46800000 base; mandatory by law
+insurance,B07,BHYT health insurance,Bảo hiểm y tế,employee 1.5% / employer 3%,monthly,employee 702000 / employer 1404000,no,Capped at 46800000 base; mandatory by law
+insurance,B08,BHTN unemployment insurance,Bảo hiểm thất nghiệp,employee 1% / employer 1%,monthly,employee 845541 / employer 845541,no,On lương cơ bản; mandatory by law
+insurance,B09,BHTNLĐ-BNN occupational insurance,Bảo hiểm tai nạn lao động – bệnh nghề nghiệp,employer 0.5%,monthly,employer 234000,no,Employer-only contribution; mandatory by law
+insurance,B10,Premium health insurance,Bảo hiểm sức khỏe cao cấp,company policy,annual,unknown,no,"Company-purchased private health insurance; described as high-quality (PVI-grade); benefit level varies by T-level"
+leave,B11,Annual leave,Nghỉ phép năm,12 days base,per year,n/a,no,+1 additional day per 5 full years of service
+meals,B12,Lunch support,Hỗ trợ ăn ca,per company policy,per working day,unknown,no,In-office lunch subsidy
+perks,B13,Vinpearl employee discount,Ưu đãi Vinpearl,employee rate,as-used,variable,no,Discount and priority slots for Vinpearl resorts/hotels; varies by T-level and tenure
+perks,B14,VinMec employee discount,Ưu đãi VinMec,employee rate,as-used,variable,no,Healthcare services at VinMec hospitals
+perks,B15,VinSchool employee discount,Ưu đãi VinSchool,employee rate,as-used,variable,no,School fee discount for dependants
+perks,B16,VinFast employee discount,Ưu đãi VinFast,employee rate,as-used,variable,no,Vehicle purchase discount
+perks,B17,Vinhomes employee discount,Ưu đãi Vinhomes,employee rate,as-used,variable,no,Real estate / apartment rental priority
+work_condition,B18,Working hours,Giờ làm việc,8h/day; 44h/week,weekly,n/a,no,"Check-in 08:30–09:30; lunch 12:30–13:45; check-out from 17:45"
+work_condition,B19,Saturday schedule,Thứ Bảy,every other week WFH,bi-weekly,n/a,no,Alternating Saturdays; default work-from-home
+work_condition,B20,Work mode Mon–Fri,Chế độ làm việc,onsite mandatory,daily,n/a,no,Full onsite; no hybrid arrangement stated in offer
+work_condition,B21,Relocation,Di chuyển địa bàn,Hà Nội mandatory,one-time,n/a,partial,Min. 2 months onsite confirmed; post-3-month hybrid TBD with Giáp Lê

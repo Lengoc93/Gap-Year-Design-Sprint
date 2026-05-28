@@ -1,0 +1,7 @@
+scenario,scenario_label,gross_vnd_monthly,net_vnd_monthly,hn_monthly_savings,hn_annual_savings,annual_plus_rental_vnd,roadmap_gap_vs_739M_target,decision,decision_rationale
+anchor,Anchor ask,140000000,109568100,82368100,988417200,1079417200,+340M above target (46%),not_accepted,Starting position for negotiation; company did not meet this level
+target,Target landing,130000000,103113600,75913600,910963200,1001963200,+263M above target (35%),not_accepted,Preferred outcome; not achieved
+floor,Hard floor (120M + package),120000000,96309800,69109800,829317600,920317600,+181M above target (25%),threshold,Minimum acceptable gross; required 13th month + reloc support + 2mo KPI bonus to hold
+actual_offer,Actual offer accepted,120791541,96860000,69660000,835920000,926920000,+188M above target (25%),ACCEPTED,"Above floor threshold; H1/H3 strategic value justifies ~6.24M/month gap vs. 103.1M net target"
+ts_baseline,TS baseline May 2026 (CPI-adj),77470000,72010000,44810000,537720000,628720000,-110M below target,prior_employer,Reference only; TS non-standard SI (BHYT-only + non-taxable allowances) not comparable to Vin structure
+walk_away_trigger,Walk-away trigger (below floor),119999999,,,,,,decline_trigger,< 120M gross OR 13th month discretionary OR SI base not confirmed in writing
