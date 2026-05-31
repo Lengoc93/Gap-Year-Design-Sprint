@@ -5,7 +5,7 @@
 | Date | Event | Dependencies |
 |------|-------|-------------|
 | **01 Jun (Mon)** | Health check for VG onboarding (CX1) | Must complete before Taipei departure |
-| **01 Jun** | Submit Lý lịch tư pháp (#4) + Sơ yếu lý lịch (#1) requests | Gov processing time — start ASAP |
+| **01 Jun 8:00 AM** | Submit Lý lịch tư pháp (#4) via VNeID (system maintenance tonight) + Sơ yếu lý lịch (#1) | Gov processing time — first thing morning |
 | **02–05 Jun** | Computex 2026 Taipei | Flights booked |
 | **06 Jun** | TSMC museum tour + last Taipei days | Need booking (CX4) |
 | **06–09 Jun** | Taipei accommodation needed | Not yet booked (CX3) |
@@ -74,7 +74,7 @@
   - [ ] 1. Sơ yếu Lý lịch có xác nhận Phường/Xã — bản gốc ⚠️ **gov dependency** (giáp lại ảnh, valid ≤6 months)
   - [ ] 2. CV cá nhân — bản gốc
   - [ ] 3. Giấy khám sức khỏe — bản gốc (from Bệnh viện Đa khoa Huyện+, valid ≤6 months) → uses CX1 health check result
-  - [ ] 4. Lý lịch tư pháp mẫu số 2 (Sở Tư pháp Tỉnh/TP, xác nhận tiền án tiền sự) — bản gốc ⚠️ **gov dependency** (submit to Sở Tư pháp or via VNeID; processing takes days–weeks)
+  - [ ] 4. Lý lịch tư pháp mẫu số 2 (Sở Tư pháp Tỉnh/TP, xác nhận tiền án tiền sự) — bản gốc ⚠️ **gov dependency** (submit via VNeID **8 AM 01 Jun** — system maintenance tonight; processing takes days–weeks)
   - [ ] 5. CCCD/Hộ chiếu — bản sao có giáp lai (nộp ngày đầu tiên đi làm)
   - [ ] 6. Ảnh 3x4 — bản mềm (chỉ áp dụng Hải Phòng & Hà Tĩnh → confirm if needed for HN)
   - [ ] 7. Bằng cấp / Văn bằng chứng chỉ — bản sao y công chứng
