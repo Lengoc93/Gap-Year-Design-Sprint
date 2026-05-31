@@ -6,8 +6,9 @@
 |------|-------|-------------|
 | **01 Jun (Mon)** | Health check for VG onboarding (CX1) | Must complete before Taipei departure |
 | **01 Jun 8:00 AM** | Submit Lý lịch tư pháp (#4) via VNeID (system maintenance tonight) + Sơ yếu lý lịch (#1) | Gov processing time — first thing morning |
+| **01 Jun 9:00 AM** | Book TSMC museum tour for 06 Jun (CX4) | Booking calendar opens 9 AM on 1st of month |
 | **02–05 Jun** | Computex 2026 Taipei | Flights booked |
-| **06 Jun** | TSMC museum tour + last Taipei days | Need booking (CX4) |
+| **06 Jun** | TSMC museum tour | Booked (CX4) |
 | **06–09 Jun** | Taipei accommodation needed | Not yet booked (CX3) |
 | **07–08 Jun** | Free days in Taipei | No plan yet (CX5) |
 | **09 Jun** | Return flight to VN — buy tax-free gifts | CX6 |
@@ -35,7 +36,7 @@
   - [ ] Prepare networking kit (business cards / digital card, LinkedIn QR, elevator pitch)
   - [ ] Plan which keynotes/booths to prioritize for audio capture
 - [ ] **CX3** Book accommodation for **06 Jun → 09 Jun** in Taipei
-- [ ] **CX4** Book TSMC museum tour for **06 Jun**
+- [ ] **CX4** Book TSMC museum tour for **06 Jun** — booking opens **9 AM 01 Jun** (calendar activates 1st of month)
 - [ ] **CX5** Plan itinerary for **07 Jun → 08 Jun** in Taipei (sightseeing / meetings / rest)
 - [ ] **CX6** Buy tax-free gifts at Taipei airport on return — masks or snacks for VN friends/relatives
 
