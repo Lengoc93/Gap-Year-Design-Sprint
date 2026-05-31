@@ -7,9 +7,7 @@
 
 ### CAREER SOVEREIGNTY (first-energy)
 
-- [ ] **G1** Resolve job offer — track proposal response; compass-test; YES/NO/NEGOTIATE
-- [ ] **G2** Location decision — unlocked by G1
-- [ ] **G3** Current rental exit plan — negotiate with owner (contract ends Aug 17)
+
 - [ ] **G4** Apr-May integration capture — write synthesis doc
 
 ### BODY SOVEREIGNTY (clock-sensitive)
@@ -72,3 +70,7 @@
 - [x] ~~Nordic PhD environment research plan~~ (Mar 22)
 - [x] ~~Financial snapshot + MVF~~ (W1 — Gate 1 ✅)
 - [x] ~~Letters (child Ngọc + mother) + burn ritual~~ (W1)
+- [x ] **G1** Resolve job offer — track proposal response; compass-test; YES/NO/NEGOTIATE
+- [x ] **G2** Location decision — unlocked by G1
+- [x ] **G3** Current rental exit plan — negotiate with owner (contract ends Aug 17) -> Move out completely, Raj failed to move in (new contract T&C out of his budgeting), this being concluded after the scenarios and negotiation run. lesson learnt: 1/ during the empty time between 2 contracts continuaty, should apply the deposit scheme rather than the fee scheme; 2/ the strategic discussion better being in person to ensure all parties get what other really mean. Given the moving out completely, need `Moving plan`
+- [x ] Solo travel (Taiwan, China) — post-location-decision -> Taiwan 02 June to 09 June: to catch COMPUTEX 2026, then visit TSMC museum, then do some visiting around taipei
