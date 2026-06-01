@@ -29,16 +29,17 @@
 
 ### MILESTONE: Computex Taipei (02 Jun → 09 Jun)
 
-- [ ] **CX1** Health check for Vingroup onboarding — ⚠️ **due 01 Jun (Mon)** before departing HCM
-- [ ] **CX2** Computex note-taking & networking strategy
+- [~] **CX1** Health check for Vingroup onboarding — ⚠️ **due 01 Jun (Mon)** before departing HCM *(in progress)*
+- [~] **CX2** Computex note-taking & networking strategy *(in progress)*
   - [ ] Research AI-powered real-time transcription tools (e.g. Plaud Note, Otter.ai, Whisper-based recorders)
   - [ ] Evaluate: buy dedicated AI recording device vs. phone app + subscription
   - [ ] Prepare networking kit (business cards / digital card, LinkedIn QR, elevator pitch)
   - [ ] Plan which keynotes/booths to prioritize for audio capture
-- [ ] **CX3** Book accommodation for **06 Jun → 09 Jun** in Taipei
+- [x] **CX3** ~~Book accommodation for **06 Jun → 09 Jun** in Taipei~~ ✅
 - [ ] **CX4** Book TSMC museum tour for **06 Jun** — booking opens **9 AM 01 Jun** (calendar activates 1st of month)
 - [ ] **CX5** Plan itinerary for **07 Jun → 08 Jun** in Taipei (sightseeing / meetings / rest)
 - [ ] **CX6** Buy tax-free gifts at Taipei airport on return — masks or snacks for VN friends/relatives
+- [ ] **CX7** Exchange VND to TWD for Taipei trip
 
 ### MILESTONE: Masan Decision Gate (by 12 Jun)
 
@@ -72,7 +73,7 @@
 > Flight to Ha Noi: **18 Jun** | Onboarding date: **22 Jun**
 
 - [ ] **VG1** Vingroup onboarding document checklist — **HIGH PRIORITY, gov-dependent**
-  - [ ] 1. Sơ yếu Lý lịch có xác nhận Phường/Xã — bản gốc ⚠️ **gov dependency** (giáp lại ảnh, valid ≤6 months)
+  - [~] 1. Sơ yếu Lý lịch có xác nhận Phường/Xã — bản gốc ⚠️ **gov dependency** (giáp lại ảnh, valid ≤6 months) — *dad helping at hometown*
   - [ ] 2. CV cá nhân — bản gốc
   - [ ] 3. Giấy khám sức khỏe — bản gốc (from Bệnh viện Đa khoa Huyện+, valid ≤6 months) → uses CX1 health check result
   - [ ] 4. Lý lịch tư pháp mẫu số 2 (Sở Tư pháp Tỉnh/TP, xác nhận tiền án tiền sự) — bản gốc ⚠️ **gov dependency** (submit via VNeID **8 AM 01 Jun** — system maintenance tonight; processing takes days–weeks)
@@ -80,6 +81,7 @@
   - [ ] 6. Ảnh 3x4 — bản mềm (chỉ áp dụng Hải Phòng & Hà Tĩnh → confirm if needed for HN)
   - [ ] 7. Bằng cấp / Văn bằng chứng chỉ — bản sao y công chứng
   - ⚠️ Items #1 and #4 have **heavy government processing dependency** — start ASAP, ideally submit before Computex departure (01 Jun)
+- [ ] **VG2** Open Techcombank account for Vingroup salary
 
 ### CAREER SOVEREIGNTY (first-energy)
 
