@@ -1,9 +1,7 @@
 # His Questions → Your Answers
 
 *Interview: TBD — Masan Group, Consumer Tech / Product role*
-*Prep filed: June 4, 2026*
-
-> ⚠️ **Interviewer LinkedIn not provided.** Profile below is inferred from Masan's org structure and likely interview panel composition. Update when LinkedIn is available.
+*Prep filed: June 4, 2026 | Interviewer profile updated: June 4, 2026*
 
 ---
 
@@ -11,16 +9,52 @@
 
 | Attribute | Detail |
 |---|---|
-| **Name** | [To fill from LinkedIn] |
-| **Current role** | [To fill] |
-| **Background** | [To fill] |
-| **What this likely means** | Masan's product/tech org is a hybrid of FMCG operators (WinCommerce, MCH) and consumer-tech builders (WIN AI, WIN Membership, TS partnership). The interviewer will likely come from one of these two cultures — probe which one within the first 5 minutes. |
-| **Fear (FMCG operator profile)** | Hiring a tech-only person who doesn't understand retail economics, store P&L, or FMCG distribution — someone who builds beautiful AI that nobody in the store can use |
-| **Fear (consumer tech profile)** | Hiring a traditional PM who can't think in consumer data flywheels, can't move fast, and can't bridge AI capability to business outcome |
-| **Motivation (both profiles)** | Someone who can bridge two worlds: the offline retail machine and the digital platform being built on top of it. That's the rarest skill in VN market right now. |
-| **Interview style** | [To fill] — likely case-heavy + experience-based. Masan is performance-driven; expect scenario questions about real execution, not just strategy talk. |
+| **Current role at Masan** | Likely recently joined — LinkedIn still shows Zalo roles. Coming in as a senior data/product leader to build out the consumer data platform or data-driven product function. |
+| **Zalo tenure** | 10 years 11 months — extremely rare in VN tech. Not a job-hopper. Chose Masan deliberately. That decision tells you something about what he sees there. |
+| **Head of ZDMP (Apr 2022–Present)** | Zalo Data Management Platform — the core data infrastructure layer for the ENTIRE Zalo Group (100M users). This person has built and owned a data platform at the largest consumer scale in Vietnam. He is not a data analyst — he is a data platform architect. |
+| **Co-Founder, Head of Data — Fiza / Zalo Finance (Apr 2019–Present)** | Built a consumer fintech product from zero. FIZA = Zalo's embedded finance play (the Zalo equivalent of Masan's Techcombank integration). He has done 0→1 fintech at consumer scale. He knows exactly what that builds and breaks. |
+| **Senior Manager, Data & Product (2021–2022)** | Team of 40. Digital transformation mandate. He has managed large data + product teams. He thinks in org design, not just individual product problems. |
+| **Earlier: Principal Data Scientist** | Came up through the technical track. He CAN read your technical claims. He will know immediately if you're using terms you don't understand. |
+| **Visiting Lecturer, Fulbright — Applied Data Science (2019–2024)** | 5 years teaching. This person structures knowledge carefully, explains complex things simply, and values intellectual precision. He finds vague, buzzword-heavy answers physically uncomfortable. |
+| **Fulbright Master (Economics Teaching Program, 2014–2016)** | Economics + data science + engineering = rare combination. He thinks in systems and incentives, not just features. |
+| **VNG / ZingMe background (2013–2014)** | VNG = ZaloPay's parent company. He's been in the VN consumer internet ecosystem for 13+ years. He knows ZaloPay. He may know people from your ZaloPay time. |
 
-> **Update this section before the interview with LinkedIn findings.**
+**The single most important read:** This is a **technically credible product builder** with **consumer fintech 0→1 experience** at **100M-user scale**. He will probe two things relentlessly: (1) do you understand data infrastructure well enough to make sound product decisions that don't create downstream platform debt? and (2) can you build consumer fintech at scale without burning the team?
+
+| Attribute | Signal |
+|---|---|
+| **His fear** | Hiring a PM who uses "data-driven" as a buzzword but can't distinguish between a data pipeline and a data product; who writes feature specs without understanding upstream data availability and downstream model constraints; who makes promises to stakeholders that require infrastructure that doesn't exist yet |
+| **His motivation** | Someone who can bridge the data platform layer (his world) and the consumer product layer (Masan's need) — translating what the data can do into what the consumer experiences. Ideally: someone who thinks in data contracts and consumer outcomes simultaneously. |
+| **Interview lens** | "Can I trust this person to write product requirements that my data engineering team can actually build — and that consumers will actually use?" |
+| **Interview style** | Structured, precise, evidence-based. Fulbright trained. Will ask follow-up questions when an answer is vague. Won't challenge aggressively — will dig quietly until he finds the edge of your knowledge. Respect that edge. Don't paper over it. |
+
+---
+
+## THE ZALO CONNECTION — Use This, Don't Fumble It
+
+**He spent 11 years at Zalo. You spent time at ZaloPay. Same corporate family.**
+
+ZaloPay was a subsidiary within the Zalo/VNG ecosystem. He built ZDMP — the data platform that ZaloPay's transaction data likely flowed through. You may have used infrastructure he built without knowing it.
+
+**How to use it:**
+- DO acknowledge the shared ecosystem: "We were in the same house — you were building the data platform layer that products like ZaloPay were sitting on top of." This earns immediate respect because it shows you understand the architecture, not just the brand name.
+- DO ask about the data platform journey: "One thing I was always curious about from the ZaloPay side — how did ZDMP handle the fintech data isolation requirements? Financial transaction data has different compliance constraints than social data." This is a genuine technical question he'll enjoy answering.
+- DO NOT claim you know each other or have a relationship if you don't. That's performative.
+- DO NOT assume he'll go easy on you because of the shared background. 11-year Zalo veterans have very high standards — he'll hold you to them.
+
+---
+
+## THE KILLER CONTEXT — Two Assets, Ranked
+
+**Asset 1 (strongest): Masan invested $65M in Trusting Social. You built products at Trusting Social.**
+
+The consumer fintech AI thesis Masan bought into — you were building inside it. He co-founded Fiza (Zalo Finance). He understands exactly what consumer fintech at scale requires. When you describe your TS fintech and AI work, he will recognize the problem space immediately.
+
+**Asset 2 (supporting): ZaloPay + Zalo Group shared ecosystem.**
+
+You were in the same company family. He was building the data infrastructure layer. You were building products on top of similar infrastructure. Shared language, shared architectural instincts.
+
+**How to sequence them:** Asset 1 when they ask about fit/why Masan. Asset 2 when the conversation touches ZaloPay or data platform specifics. Don't bundle them — they're separate signals.
 
 ---
 
@@ -279,6 +313,63 @@ The data product that enables this: a "financial readiness score" per consumer b
 
 ---
 
+## DATA PLATFORM QUESTIONS (NEW — HIGH PROBABILITY given his ZDMP background)
+
+---
+
+### QD1 [High Risk — specific to this interviewer]
+**"You've been a PM at the product layer. How do you think about the relationship between a data platform and the products that sit on top of it?"**
+
+#### Recommended Answer
+
+The data platform and the product layer have a supply-demand contract — and most PM-data platform friction happens because PMs treat the platform as a request queue, not as a service with defined contracts.
+
+At ZaloPay, I experienced this firsthand. The product needed specific transaction signals in near-real-time for fraud detection. The data team had batch pipelines running on 6-hour cycles. My product spec assumed real-time data — the platform could only deliver 6-hour-old data. The gap created a fraud detection product that was architecturally sound but operationally broken.
+
+What I learned: the PM's job is to define data requirements as explicit contracts — latency, freshness, completeness, schema. Not "I need purchase history" but "I need the last 90 days of SKU-level purchase data per consumer_id, refreshed at maximum 1-hour delay, with a completeness SLA of 99.5%." That contract allows the platform team to design the pipeline correctly, and it gives me a clear metric to track when the product breaks.
+
+The implication for building on top of a system like ZDMP: the PM who respects the platform contract creates leverage — the platform team trusts them to spec correctly, which means they get faster turnaround and better data quality. The PM who treats the platform as a black box creates downstream failures that show up as "the data was wrong."
+
+> **Tactical note:** This is his world. He built ZDMP for 100M users. He has seen EVERY version of the "PM doesn't understand data platform" failure mode. Your ZaloPay example shows you've lived on the product side of this interface and learned from it. The "data contract" framing will resonate immediately — it's the language of a platform person. Don't overclaim technical depth; show that you understand the interface layer and respect its constraints.
+
+---
+
+### QD2 [High Risk — specific to this interviewer]
+**"ZDMP had to serve the whole Zalo Group — social, payments, commerce, enterprise. At Masan, the data platform needs to serve WinCommerce, MCH, MML, and eventually financial products. What are the hardest design tradeoffs in a multi-tenant consumer data platform?"**
+
+#### Recommended Answer
+
+I'll be honest — I've worked on the consumer side of platforms like this, not built the platform itself. But from the ZaloPay product experience, here are the tradeoffs I've seen break products:
+
+**Tradeoff 1: Data freshness vs. cost.** Real-time streams are expensive. Batch is cheap but stale. Every product team wants real-time. The platform has to enforce a "freshness tier" discipline: what genuinely needs real-time (fraud signals, active-session personalization), what can tolerate 1-hour batch (basket recommendation), what can tolerate daily (consumer segmentation models). PMs who don't understand this tier architecture request real-time for everything and blow the infrastructure budget.
+
+**Tradeoff 2: Data isolation vs. data synergy.** Financial products (Techcombank integration, FIZA equivalent) need strict data isolation for compliance. But Masan's consumer data value comes from COMBINING retail behavior + financial behavior. The architecture needs isolation at the access control layer while enabling enrichment at the model layer — "the model can see everything; the product API only sees what its consumer is authorized to see." That's a hard design problem.
+
+**Tradeoff 3: Schema stability vs. product velocity.** Product teams change their data requirements constantly. Every schema change upstream breaks downstream models. The platform needs versioned data contracts — "this consumer profile schema v2.3 is stable for 12 months" — so the model team and product team can build without stepping on each other.
+
+What I'd want from you, given your ZDMP experience: which of these tradeoffs is hardest at Masan's current scale, and where does the PM role have the most leverage to make the platform team's life easier or harder?
+
+> **Tactical note:** He literally built the answer to this question. Do NOT pretend to know more than you do. Your role in this answer is to demonstrate you understand the problem space well enough to be a good platform consumer — a PM who makes the platform team's job easier. The question at the end (asking HIM) shows intellectual honesty and genuine curiosity about his experience. That will earn more respect than trying to out-platform him.
+
+---
+
+### QD3 [Medium Risk — if he goes deep on data]
+**"WIN Membership is the core data asset. What's the biggest data quality risk in a retail membership system at this scale?"**
+
+#### Recommended Answer
+
+The biggest risk isn't missing data — it's incorrect identity resolution.
+
+At scale, WIN Membership likely has consumers who enrolled multiple times (different phone numbers, different family members using the same card), consumers who share accounts, and consumers whose behavioral data is mixed across household members. If identity resolution is imperfect, the "consumer profile" you're modeling isn't a person — it's a household with mixed signals, or worse, a corrupted merge of two completely different people.
+
+This matters most for financial product targeting. If Masan's consumer credit score is built on a profile that's actually two people merged, the credit decision is garbage. At TS, we had the same problem with telco data — a phone number might be shared, ported, or recently acquired. Our scoring model had to be designed to detect and handle these cases explicitly, not assume one phone number = one person.
+
+The data quality intervention I'd prioritize: a consumer identity confidence score at the account level — flagging which WIN Membership accounts have high-quality single-identity signals versus ambiguous multi-identity signals. The financial product targeting tier uses only high-confidence identities. The grocery recommendation tier tolerates ambiguity.
+
+> **Tactical note:** He built a data platform for 100M users. He's definitely encountered identity resolution problems. This answer shows you've thought about data quality at the MODEL INPUT level, not just the "data is missing" level. The TS bridge is relevant because TS's entire business depends on getting individual identity correct for credit decisions.
+
+---
+
 ## TRICKY / LAYERED QUESTIONS
 
 ---
@@ -389,18 +480,34 @@ What I know about my own risk here: my EY and international experience gives me 
 
 ---
 
+### YQ8 [Important — specific to this interviewer's background]
+**"You've built ZDMP at Zalo and Fiza from zero. What does the data platform infrastructure look like at Masan today — and where is the biggest gap that a senior PM needs to work around?"**
+
+> What to listen for: This question does three things simultaneously — (1) acknowledges his Zalo expertise directly and respectfully, (2) asks him to compare Zalo's maturity to Masan's current state, (3) gives you real intelligence about what you'd be walking into. If the data platform is immature → you'd be building product on unstable ground (high risk / high reward). If it's solid → your product quality ceiling is higher. His answer also tells you how candid he is about Masan's gaps — that's a culture signal.
+
+---
+
+### YQ9 [Nice-to-know — only if time allows]
+**"At Zalo, FIZA (Zalo Finance) and ZDMP coexisted — a fintech product relying on the core data platform. How did you manage the tension between data compliance requirements (financial data isolation) and data synergy needs (using all behavioral data for better credit decisions)?"**
+
+> What to listen for: This is an intellectual peer question — you're engaging with a real technical challenge from his career. He'll enjoy it. His answer gives you intel on how they're likely approaching the same problem at Masan (Techcombank data + WinCommerce behavioral data). If he lights up → high curiosity culture. If he gives a surface answer → the interview is transactional.
+
+---
+
 ## PRE-INTERVIEW REMINDERS
 
 1. **Frame:** You are evaluating THEM, not performing for them. Same energy as the Vingroup interviews where you had real conviction. Curiosity, not anxiety.
 
-2. **The Vingroup context:** You have an accepted offer. This means you're negotiating from strength, not scarcity. You don't NEED this — you WANT to evaluate if it's better. That energy is valuable. Don't let desperation energy sneak in.
+2. **The Vingroup context:** You have an accepted offer starting June 11. You're negotiating from strength, not scarcity. You don't NEED this — you WANT to evaluate if it's better. That energy is valuable. Don't let desperation energy sneak in.
 
-3. **The TS connection:** It's an asset, not a badge. Use it to open the door; let your work carry you through it.
+3. **The two assets:** TS ($65M Masan investment) + ZaloPay (his Zalo ecosystem). Each is a door-opener. Let your work carry you through.
 
-4. **The FMCG gap:** Own it with zero defensiveness. "I don't have deep FMCG retail operations experience — here's what I'd do in the first 30 days to close that gap." Interviewers hire people who know their gaps AND have a plan, not people who pretend they don't have them.
+4. **Respect the technical depth.** He was a Principal Data Scientist before becoming a platform head. He can see through technical bluffing instantly. When you hit the edge of your knowledge — name it, then show you know how to work with people who have that knowledge. "That's exactly where I'd rely on the data engineering team — my job is to define the contract; theirs is to fulfill it."
 
-5. **Emotional somatic check:** If a question triggers the mẹ wound / "they're questioning my capability" collapse — notice it, name it, breathe. Answer from your evidence record, not from your defense instinct. Your evidence record is strong.
+5. **The FMCG gap:** Own it with zero defensiveness. "I don't have deep FMCG retail operations experience — here's what I'd do in the first 30 days to close that gap." He came from social/fintech into retail-adjacent at Masan — he may have the same gap and will respect the honesty.
 
-6. **The meta-goal:** Determine if this role passes the compass filter — Sovereignty (do I own something real?), Diversification (does this open domains I don't have?), Excellence (is the standard worth chasing?). That's the deliverable — not "getting the offer."
+6. **Emotional somatic check:** If a question triggers the mẹ wound / "they're questioning my capability" collapse — notice it, name it, breathe. Answer from your evidence record, not from your defense instinct. Your evidence record is strong.
 
-7. **Watch for the "want the win, not the work" pattern:** If you leave feeling excited because Masan is impressive / the interviewer was charming — wait 24 hours before updating your verdict. The test is: does the daily WORK excite you, or just the brand?
+7. **The meta-goal:** Determine if this role passes the compass filter — Sovereignty (do I own something real?), Diversification (does this open domains I don't have?), Excellence (is the standard worth chasing?). That's the deliverable — not "getting the offer."
+
+8. **Watch for the "want the win, not the work" pattern:** If you leave feeling excited because Masan is impressive / the interviewer was charming — wait 24 hours before updating your verdict. The test is: does the daily WORK excite you, or just the brand?
