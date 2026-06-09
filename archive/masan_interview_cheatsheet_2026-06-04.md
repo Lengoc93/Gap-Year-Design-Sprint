@@ -1,7 +1,26 @@
 # His Questions → Your Answers
 
-*Interview: TBD — Masan Group, Consumer Tech / Product role*
+*Interview: TBD — Masan Group, **Data Product Manager** (central Data & AI team)*
 *Prep filed: June 4, 2026 | Interviewer profile updated: June 4, 2026*
+*JD-informed update: June 9, 2026 — role is operational data products for BUs, not consumer tech PM*
+
+---
+
+## ⚠️ JD REFRAME ALERT (June 9, 2026)
+
+**The JD changes the interview framing significantly.** The role is:
+- **Data Product Manager** on the **central Data & AI team**
+- Owns data products (dashboards, tracking systems, mobile-first interfaces, workflows) for an **assigned BU**
+- Emphasis on **on-site operational discovery**, **adoption/change management**, and **frontline environments**
+- Tech stack: **Databricks Agentic AI, Workday HCM, ERP modernization**
+- IC culture: "you go figure things out on the ground before writing requirements"
+
+**What this means for your answers below:**
+- Lead with **end-to-end product ownership** and **data fluency**, not consumer fintech/AI
+- The TS connection is still an asset but **less central** — don't overweight it
+- **Reframe your AI Voice Agent work** as "building a data product for operational users" (debt collectors = frontline users making decisions with data)
+- **Own the operational/frontline gap honestly** — it's in the JD requirements
+- Ask about **which BU**, **data maturity**, and **path to AI products** — these determine whether this is exciting or limiting
 
 ---
 

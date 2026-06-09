@@ -1,9 +1,10 @@
 # Masan Group
 
-**Type:** Full-time senior role — Product / Consumer Tech
+**Type:** Full-time senior role — Data Product Manager (central Data & AI team)
 **Source:** [To fill: who surfaced this / how it was initiated]
 **Status:** `Active`
 **File opened:** June 4, 2026
+**JD received:** June 9, 2026 — `research/masan - Data Product Manager.pdf`
 
 ---
 
@@ -17,12 +18,12 @@
 
 | Dimension | Score | Notes |
 |---|---|---|
-| **Sovereignty** | ? | Consumer-tech mandate in a company transitioning from FMCG conglomerate to tech platform. Founder-led (Danny Le as CEO) but with clearer product ownership culture than conglomerate-style hierarchy. Need to probe: what does a PM own vs. escalate? |
-| **Diversification** | ? | High potential: spans retail, fintech, AI, consumer data, supply chain, food-tech — widest multi-domain exposure in VN market if the role has cross-P&L reach. Risk: if scoped to one vertical (e.g., WinCommerce only), diversification drops. |
-| **Excellence** | ? | Masan is building Southeast Asia-scale consumer tech with world-class aspirations. "Point of Life" serving 100M Vietnamese consumers is a genuinely ambitious benchmark. The excellence standard is real if the role has ownership; unclear if it's execution-only. |
-| **Overall** | ? | |
+| **Sovereignty** | 🟡 | JD says "own a data product end-to-end for your assigned BU" — full cycle: discovery, roadmap, PRD, build vs. buy, pilot, scale, adoption. IC-oriented ("an IC who owns outcomes, not someone who needs a team to execute"). Central team = Group-level visibility (CDO, C-suite). **Risk:** "assigned BU" means scope may be narrow (one BU's dashboards, not cross-group consumer tech). Probe: which BU, how much latitude in problem selection? |
+| **Diversification** | 🟡 | Central Data & AI team placement means exposure across BUs (retail, FMCG, meat, F&B, financial services). JD explicitly says "comfortable with ambiguity across BUs that have different data maturity, different cultures." **Risk:** If assigned to one BU long-term, diversification is limited. The data product scope (dashboards, tracking, workflows) is narrower than consumer tech platform work. |
+| **Excellence** | 🟡 | Building on "a data asset that doesn't exist at this scale anywhere else in Vietnam." Active infra investment: Databricks Agentic AI, Workday HCM, ERP modernization. **Risk:** The deliverables are operational (dashboards, tracking systems, mobile-first interfaces) — not consumer AI/fintech. Excellence ceiling depends on whether "data product" evolves toward AI-powered products or stays at BI/reporting layer. |
+| **Overall** | 🟡 | JD is clearer than expected — real ownership, IC culture, Group visibility. But scope is **operational data products for BUs**, not consumer tech/fintech/AI platform. This is a meaningful reframe from the initial assumption. |
 
-**Compass verdict:** `Testing`
+**Compass verdict:** `Testing — reframed by JD (operational data products, not consumer tech PM)`
 
 ---
 
@@ -39,16 +40,16 @@
 
 ## Why This Is Different From Vingroup (Honest Comparison Frame)
 
-| Dimension | Vingroup (AI Alignment, BKTT) | Masan (Consumer Tech / POL) |
+| Dimension | Vingroup (AI Alignment, BKTT) | Masan (Data Product Manager, central Data & AI team) |
 |---|---|---|
-| **Domain** | AI governance / safety — platform infrastructure | Consumer behavior, fintech, retail O2O — visible end-user impact |
-| **Scope** | Cross-P&L but inside one conglomerate's AI layer | Cross-category (food, finance, retail, healthcare) serving 100M consumers |
-| **Culture signal** | Military / hierarchical; positive from Giáp's team specifically | More entrepreneurial / startup-within-conglomerate; Danny Le founder-operator culture |
-| **Tech asset** | Home-grown LLM + AI alignment stack | AI + data platform, Digital Twin, WIN AI, Smart POS; TS partnership for fintech AI |
-| **My connection to the org** | None prior | Deep: Masan invested $65M in Trusting Social (my ex-employer) — direct overlap with their consumer tech thesis |
-| **Comp benchmark** | 120.79M VND/month gross accepted (T4) | Unknown — likely similar T4/T3 range, possibly higher given consumer-tech scale |
-| **H1 (learning rate)** | Conglomerate AI politics + alignment spec design | Consumer tech at scale, O2O product, fintech-retail convergence |
-| **H3 (future options)** | AI governance PM, VN gov AI policy, V-AI ecosystem | Consumer tech, SEA fintech, brand-retail-tech platform leadership |
+| **Domain** | AI governance / safety — platform infrastructure | Operational data products for BUs — dashboards, tracking systems, mobile-first interfaces, workflows |
+| **Scope** | Cross-P&L but inside one conglomerate's AI layer | Assigned BU scope, but central team placement = Group-level visibility (CDO, C-suite) |
+| **Culture signal** | Military / hierarchical; positive from Giáp's team specifically | IC-oriented, outcome-ownership, ground-first discovery. JD: "you go figure things out on the ground before writing requirements" |
+| **Tech asset** | Home-grown LLM + AI alignment stack | Databricks Agentic AI, Workday HCM, ERP modernization — platform being built now |
+| **My connection to the org** | None prior | Deep: Masan invested $65M in Trusting Social (my ex-employer) — though JD scope is operational data products, not consumer fintech |
+| **Comp benchmark** | 120.79M VND/month gross accepted (T4) | Unknown — JD asks 5+ years PM, data fluency, operational environments |
+| **H1 (learning rate)** | Conglomerate AI politics + alignment spec design | Operational data products at conglomerate scale, cross-BU data maturity navigation, FMCG/retail domain |
+| **H3 (future options)** | AI governance PM, VN gov AI policy, V-AI ecosystem | Data platform leadership, CDO track, enterprise data product at SEA scale |
 
 ---
 
@@ -58,18 +59,18 @@
 
 | # | Question | Importance | Status | Answered at |
 |---|----------|------------|--------|-------------|
-| 1 | What is the specific role — consumer tech PM, data platform PM, fintech PM, or something else? | `Critical` | `Open` | — |
-| 2 | What does the PM own vs. escalate? Where is the decision boundary? | `Critical` | `Open` | — |
-| 3 | How does the Trusting Social partnership translate into actual product collaboration? What does the "consumer tech engine" look like today? | `Critical` | `Open` | — |
-| 4 | What does Day 90 look like — first deliverable? | `Critical` | `Open` | — |
-| 5 | Is this 0→1 or 1→N product work? | `Critical` | `Open` | — |
-| 6 | How does compensation compare — base, bonus, equity-equivalent, benefits? | `Critical` | `Open` | — |
-| 7 | WIN Membership: current state — how many members, what does the data engine look like, how is personalization powered today? | `Important` | `Open` | — |
-| 8 | How does the tech/product team relate to the traditional FMCG/retail org? Is there cultural friction between the "tech startup" and the "FMCG operator"? | `Important` | `Open` | — |
-| 9 | What's the reporting chain — who does this role report to, and what's above? | `Important` | `Open` | — |
-| 10 | Is the consumer fintech track (Techcombank partnership, embedded finance at Win stores) part of this PM's scope? | `Important` | `Open` | — |
-| 11 | What's the tenure pattern in the product/tech team? Are people staying for 2+ years or churning? | `Important` | `Open` | — |
-| 12 | How does Danny Le's leadership style translate to the product org — is initiative rewarded or bottlenecked? | `Nice-to-know` | `Open` | — |
+| 1 | ~~What is the specific role — consumer tech PM, data platform PM, fintech PM, or something else?~~ | `Critical` | `Answered` | JD (Jun 9) — **Data Product Manager**, central Data & AI team. Owns data product end-to-end for assigned BU. Deliverables: dashboards, tracking systems, mobile-first interfaces, workflows. |
+| 2 | Which BU will I be assigned to? What's the data maturity of that BU today? | `Critical` | `Open` | — |
+| 3 | What does the PM own vs. escalate? Where is the decision boundary? JD says "own the full product cycle" — does that include build vs. buy decisions and vendor selection? | `Critical` | `Open` | — |
+| 4 | What does Day 90 look like — first deliverable? Is there an existing data product to inherit, or is this greenfield? | `Critical` | `Open` | — |
+| 5 | How does compensation compare — base, bonus, equity-equivalent, benefits? | `Critical` | `Open` | — |
+| 6 | How does the central Data & AI team interact with BU operations teams on the ground? Who resolves conflicts when BU priorities diverge from data team roadmap? | `Critical` | `Open` | — |
+| 7 | What's the current state of the Databricks / data platform infrastructure? How mature is the data pipeline that I'd be building products on top of? | `Important` | `Open` | — |
+| 8 | JD mentions "different BUs with different data maturity, different cultures, and different definitions of the same KPI" — what's the hardest example of this today? | `Important` | `Open` | — |
+| 9 | What's the reporting chain — who does this role report to (CDO? Head of Data?), and what's above? | `Important` | `Open` | — |
+| 10 | How is adoption measured? JD emphasizes "change management is part of the product" — is there a formal adoption metric, or is it qualitative? | `Important` | `Open` | — |
+| 11 | What's the tenure pattern in the Data & AI team? Are people staying for 2+ years or churning? | `Important` | `Open` | — |
+| 12 | Is there a path from operational data products (dashboards/tracking) toward AI-powered products (Databricks Agentic AI, predictive models)? Or are those separate tracks? | `Nice-to-know` | `Open` | — |
 
 ---
 
@@ -104,6 +105,28 @@
 - Product scope: personalized fintech products (credit, BNPL, financial services) + AI for retail store selection, demand/supply planning, product assortment
 - TS → Masan bridge: transition from "credit scoring use case" to "holistic consumer engine"
 - **Critical insight for Ngoc:** She built products at TS that directly power what Masan is building. She is not pitching capability — she is proving it with the actual partner company's work.
+
+### JD Analysis — Data Product Manager (received Jun 9, 2026)
+
+**Role:** Data Product Manager on central Data & AI team
+**Core mandate:** Own a data product end-to-end for an assigned BU — from on-site discovery to shipping a product that supervisors, managers, and business leaders actually use.
+
+**Deliverables:** Dashboards, tracking systems, mobile-first interfaces, workflows — translating operational/business KPIs into data products.
+
+**Key JD signals:**
+- **On-site first:** "Go on-site, understand how operational work is done today, and identify where data can create the most leverage — before writing a single requirement"
+- **Full ownership:** Discovery, roadmap, PRD, build vs. buy, pilot, scale, and adoption
+- **Adoption = PM's job:** "Change management is part of the product, not someone else's job"
+- **IC culture:** "You're an IC who owns outcomes, not someone who needs a team to execute"
+- **Cross-BU ambiguity:** Different data maturity, different cultures, different KPI definitions
+- **Group-level visibility:** Central team → CDO and C-suite
+- **Tech stack:** Databricks Agentic AI, Workday HCM, ERP modernization — platform being built now
+
+**What this is NOT (vs. initial assumption):**
+- Not consumer-facing tech (WIN Membership, fintech, loyalty)
+- Not AI/ML product development
+- Not consumer tech PM
+- The TS partnership and consumer fintech thesis are contextually relevant but not the day-to-day work
 
 **Technology & data strategy:**
 - WIN Membership platform: unified consumer identity across WinMart/WinMart+ chains
@@ -141,28 +164,53 @@
 
 ---
 
-## Competency Map (Ngoc → Masan role)
+## Competency Map (Ngoc → Masan Data PM role — updated from JD, Jun 9)
 
-### Why this is the highest-fit role in VN market right now (honest case):
+### JD requirements mapped to Ngoc's experience:
 
-| Ngoc's asset | Masan's need | Fit |
+| JD Requirement | Ngoc's asset | Fit |
 |---|---|---|
-| Trusting Social experience (AI, credit scoring, consumer fintech) | TS is Masan's $65M strategic partner — Ngoc built the products Masan is integrating | 🟢 Direct proof, not analogy |
-| ZaloPay PO (payment rails, bank integration, cashflow) | Consumer fintech at Win stores (Techcombank integration, embedded finance, loyalty) | 🟢 Direct |
-| AI Voice Agent PM (LLM, state machine, real-time decisioning) | WIN AI Smart POS, consumer behavior AI, recommendation systems | 🟢 Transferable architecture |
-| EY Singapore (strategy, cross-border fintech advisory) | Group-level strategic thinking, stakeholder navigation across FMCG + retail + tech | 🟡 Transferable |
-| 0→1 builder instinct | WINLife ecosystem, Retail Supreme scale-out, new product lines | 🟢 Strong match |
-| Cross-functional stakeholder navigation | FMCG-tech interface (requires bridging two cultures) | 🟡 Partially tested, needs conglomerate-scale proof |
+| **5+ years PM, owning products end-to-end (spec to post-launch)** | 10+ years PM across TS, ZaloPay, EY. AI Voice Agent: 0→production across 2 US clients for 7 months. Lending product: spec → launch → 30% conversion lift. | 🟢 Strong match |
+| **Data fluency — dashboards, metrics, data quality, analytics-driven features** | TS: built AI evaluation frameworks, dual-annotator methodology, A/B testing, data contract design. ZaloPay: defined payment metrics, worked with data pipelines. | 🟢 Strong match |
+| **Products for operational/frontline environments (retail, warehouse, manufacturing, F&B)** | No direct frontline/operational product experience. TS Voice Agent was operational (call center agents used it), but not retail/manufacturing/F&B floor. | 🔴 Gap — JD explicitly asks for this |
+| **Driving real adoption — sat with end users, seen what doesn't work, fixed it** | TS: drove adoption of AI Voice Agent with US debt collection clients, iterated based on live production performance. Change management across engineering + data science teams. | 🟡 Transferable, but not with operational/frontline end users |
+| **Senior stakeholder management across BU Operations, HR, functional teams** | TS: navigated CEO/CTO/Head of Data Science/US clients. EY: managed cross-border transaction stakeholders. ZaloPay: bank integration stakeholders. | 🟢 Strong match |
+| **Fluent Vietnamese; comfortable on-site with operational teams** | Native Vietnamese. | 🟢 |
+| **Nice-to-have: FMCG, meat/food, manufacturing, retail, agriculture background** | None. | 🔴 Gap |
+| **Nice-to-have: data-adjacent role (analyst, BI, data ops)** | Not a data analyst, but built data-heavy products (AI scoring, evaluation frameworks, metrics definition). | 🟡 Adjacent |
 
-### Honest gaps:
-- **Physical retail operations:** No direct minimart/FMCG experience — have advised/built for these categories, not operated within one
-- **General trade / traditional channel:** Retail Supreme requires understanding GT economics — unfamiliar territory
-- **Consumer loyalty platform scale:** Win Membership is 10M+ consumers — largest platform she'd have managed is ~2M debtor contacts
-- **FMCG supply chain:** Digital Twin + demand/supply planning = unfamiliar operating context
+### Critical reframe from JD:
+
+The role is **operational data products** (dashboards, tracking systems, workflows for BU supervisors/managers), not consumer-facing AI/fintech. The TS connection and consumer tech thesis are **less directly relevant** than initially assumed. The strongest selling points shift to:
+
+1. **End-to-end product ownership** (proven across multiple companies)
+2. **Data fluency** (AI evaluation, A/B frameworks, data contracts, metrics)
+3. **Stakeholder navigation** in complex orgs
+4. **IC who owns outcomes** — matches the JD's "who thrives here" profile
+
+### Honest gaps (updated from JD):
+- **Operational/frontline product experience:** No retail floor, warehouse, manufacturing, or F&B product work. This is explicitly in the JD's "What We're Looking For" — not just nice-to-have.
+- **FMCG/retail domain:** Same gap as before, but now more salient — the role requires on-site discovery in these environments.
+- **Dashboard/BI product shipping:** Have defined metrics and worked with data, but haven't shipped dashboards or tracking systems as primary deliverables.
+- **Change management with frontline users:** Adoption experience is with technical teams and US clients, not with Vietnamese store supervisors or factory managers.
 
 ---
 
 ## Touchpoints (chronological)
+
+### June 9, 2026 — JD Received & Analysis
+**Format:** Document review
+
+**What happened:**
+- Received official JD: `research/masan - Data Product Manager.pdf`
+- Role is **Data Product Manager** on central Data & AI team — significant reframe from "Consumer Tech PM" assumption
+- Scope: operational data products (dashboards, tracking, workflows) for assigned BU, not consumer-facing tech/fintech
+- Updated opportunity file: compass filter, competency map, opening questions, YES/NO triggers, 90-day plan
+- Updated interview cheatsheet with JD reframe alert
+
+**Key insight:** The TS connection and consumer tech thesis are less directly relevant than assumed. The strongest fit signals are end-to-end product ownership, data fluency, and stakeholder navigation. The honest gap is operational/frontline product experience — which the JD explicitly requires.
+
+---
 
 ### June 4, 2026 — Interview Prep (self)
 **Format:** Research session
@@ -180,78 +228,84 @@
 | Date | Verdict | What shifted |
 |---|---|---|
 | June 4, 2026 | Testing | File opened. High strategic fit on paper. Vingroup timing conflict = the actual decision. |
+| June 9, 2026 | Testing — reframed | JD received. Role is **Data Product Manager on central Data & AI team** — operational data products for BUs (dashboards, tracking, workflows), not consumer tech/fintech PM. Scope narrower than assumed but ownership is real (full product cycle, IC culture). TS connection less directly relevant. Key gap: no operational/frontline product experience (JD explicitly requires it). |
 
-**Current stance:** `Pursuing — with eyes open on Vingroup timing conflict`
+**Current stance:** `Pursuing — role is clearer but fit needs honest re-evaluation in interview`
 
 **Blockers before deciding:**
-- [ ] Understand the specific role and mandate
+- [x] Understand the specific role and mandate — **answered by JD: Data Product Manager, central Data & AI team**
+- [ ] Understand which BU assignment and its data maturity
 - [ ] Resolve Vingroup timing conflict consciously (not by default)
 - [ ] Compass filter interview with interviewer — does this feel like lean forward or relief?
 - [ ] Package comparison vs. Vingroup (120.79M VND gross accepted)
+- [ ] Honest assessment: does operational data products (dashboards/tracking) excite the builder instinct, or is this a step sideways from AI/consumer tech?
 
 **What would make this a YES:**
-- Role has real product ownership (not execution-only)
-- Consumer tech PM scope (not pure FMCG operations)
+- BU assignment is interesting (e.g., WinCommerce retail tech, financial services) with clear path to more complex data/AI products
+- Full ownership confirmed in practice, not just on paper — IC culture is real
+- Central team → CDO/C-suite visibility translates to actual career leverage
 - Compensation ≥ Vingroup package
-- "Lean forward" energy from learning the specific work — not just "Masan is impressive"
-- Vingroup withdrawal is feasible (timing, relationship)
+- "Lean forward" energy from the specific daily work (building data products for operational teams) — not just "Masan is impressive"
+- The Databricks Agentic AI / platform investment signals the role evolves toward AI products, not just BI
 
 **What would make this a NO:**
-- Role is FMCG distribution PM (not consumer tech / data / AI)
-- Execution-only scope — hierarchy kills sovereignty
-- Compensation below Vingroup (hard to justify the switching cost)
-- Emotional read = relief (this is a fear-based grab from "Vingroup is too hard")
+- Scope is permanently BI/dashboards with no path toward AI-powered products
+- "Assigned BU" means siloed into one domain with no cross-BU exposure
+- The operational/frontline gap is a real blocker — they need someone who's done this before, and I haven't
+- Compensation below Vingroup (hard to justify switching cost for a role that's arguably less aligned with long-term AI/consumer tech trajectory)
+- Emotional read = relief (escaping Vingroup difficulty, not choosing something better)
 
 ---
 
 ## 90-Day Onboarding Challenges
 
-### Personality × Environment Friction
+### Personality × Environment Friction (updated from JD)
 
 | My trait | Environment trait | Predicted friction | Severity |
 |---|---|---|---|
-| ENFP builder instinct — loves 0→1 | Masan is 80% execution + 20% new builds at this scale | Builder energy may frustrate against scale-out reality | 🟡 |
-| Openness 8.5 — cross-disciplinary | FMCG-tech hybrid culture — FMCG ground deeply | Learning FMCG economics from scratch mid-role | 🟡 |
-| Conscientiousness 7.8 — purposeful process | FMCG operations = heavy ops process (planogram, supply chain, category management) | If process doesn't map to visible consumer impact, energy drain | 🟡 |
-| Sovereignty drive — needs real ownership | Conglomerate reporting chains still apply | Need to probe decision ownership before committing | 🔴 |
-| No retail operations background | WinCommerce is a physical retail machine | Month 1-2: everything is unfamiliar — context load high | 🟡 |
+| ENFP builder instinct — loves 0→1 | Data products may be dashboards/tracking → iterative improvement, not greenfield creation | If the work is BI reporting refinement, builder energy dies | 🟡 |
+| Openness 8.5 — cross-disciplinary | "Assigned BU" may mean deep in one operational domain for months | If siloed into one BU's KPI dashboards, cross-disciplinary energy starves | 🟡 |
+| Conscientiousness 7.8 — purposeful process | JD: "go on-site, understand how operational work is done today" — heavy fieldwork with frontline teams | Unfamiliar with operational/frontline discovery; steep learning curve on-site in factories/stores | 🔴 |
+| Sovereignty drive — needs real ownership | JD promises "own the full product cycle" and "IC who owns outcomes" — sovereignty signals are strong on paper | Central team IC culture is the best-case for sovereignty. Risk: "central team serving BU" dynamic can become service-desk if BU leadership is weak | 🟡 |
+| AI/consumer tech identity | Role deliverables are operational data products, not AI/consumer tech | Identity friction: "am I building dashboards or building the future?" — need to reframe or this becomes an energy drain | 🔴 |
 
-### Competency Gaps
+### Competency Gaps (recalibrated from JD)
 
-- **Strong at** (needed): Consumer fintech, AI/ML product, 0→1 platform thinking, cross-functional navigation, regulatory-to-tech translation
-- **Think I can do** (unproven at this scale): Consumer loyalty platform (10M+ users), FMCG-tech interface, retail O2O product
-- **Genuinely lack**: Physical retail economics (store-level P&L, planogram, FMCG supply chain), general trade digitalization, Vietnam's consumer data regulation
-- **They might assume** I have (but don't): Deep retail/FMCG domain expertise, supply chain product experience
+- **Strong at** (needed by JD): End-to-end product ownership, data fluency (metrics, data quality, analytics-driven features), senior stakeholder management, structured PM fundamentals (user stories, prioritization, sprint work)
+- **Think I can do** (unproven in this context): On-site operational discovery, driving adoption with frontline users, building dashboards/tracking systems as primary deliverables, navigating BUs with different data maturity
+- **Genuinely lack**: Products for operational/frontline environments (retail floor, warehouse, manufacturing, F&B), FMCG/meat/food domain, BI/dashboard product shipping experience
+- **They might assume** I have (but don't): Hands-on experience sitting with store supervisors or factory managers; familiarity with operational KPIs (shift output, inventory turnover, workforce planning); comfort with Workday HCM or ERP systems
 
 ---
 
 ## Strategic Roadmap
 
-### Pre-Decision
+### Pre-Decision (updated from JD)
 
-- [ ] Interview: understand exact scope, mandate, ownership model
+- [x] Understand exact role title and scope — **answered: Data Product Manager, central Data & AI team, operational data products for assigned BU**
+- [ ] Interview: understand which BU, data maturity, specific first deliverable, path to AI products
 - [ ] Resolve Vingroup timing — what's the withdrawal window? What's the relationship cost?
-- [ ] Compass test: does the daily work (not the brand) produce lean-forward energy?
+- [ ] Compass test: does building operational data products (dashboards, tracking, workflows) for BU teams produce lean-forward energy? Or is this a step sideways from the AI/consumer tech trajectory?
 - [ ] Package comparison vs. Vingroup gross 120.79M
-- [ ] Honest gut check: is the Masan pull about better fit, or is it the "want the win, not the work" pattern?
+- [ ] Honest gut check: is the Masan pull about better fit, or is it the "want the win, not the work" pattern? The JD reframe makes this question sharper — operational data products ≠ the consumer tech vision that originally excited.
 
-### If YES — First 90 Days
+### If YES — First 90 Days (recalibrated from JD)
 
-- **Week 1:** Map the org — who owns what, where the FMCG-tech fault lines are, who the informal decision-makers are
-- **Month 1:** Ship one small win in the consumer tech layer that validates the bridge from TS experience to Masan context
-- **Month 2:** Build one cross-team relationship (MCH + WCM, or retail + fintech) to establish credibility in both cultures
-- **Month 3:** Self-imposed review — does the scope match what was promised in interview?
+- **Week 1:** Go on-site to assigned BU. Map operational workflows, meet supervisors/managers who will be end users. Understand how they track KPIs today (paper? Excel? existing system?).
+- **Month 1:** Ship one small data product win — a dashboard or tracking view that solves an immediate pain point for the BU. Prove the "go to the ground first" instinct.
+- **Month 2:** Build trust with BU operations leadership AND the central data engineering team. Become the translator between "what the business needs" and "what the data platform can deliver."
+- **Month 3:** Self-imposed review — is this BI/dashboard work with a ceiling, or is there a real path toward Databricks Agentic AI / predictive products?
 
 ### If NO — Exit Strategy
 
-- Decline gracefully: "After going deep on both opportunities, I realized the Masan scope is more FMCG operations than consumer tech product — which doesn't match where I need to be developing. I'd welcome staying in touch as the tech layer matures."
-- Preserve: Danny Le's team as a future reference point; the research is live market intelligence regardless
+- Decline gracefully: "After reviewing the JD and interviewing, I realized the Data Product Manager scope is more operational BI/tracking than the AI/consumer tech product work I'm building toward. The central Data & AI team is impressive — I'd welcome staying in touch as the platform matures toward AI-powered products."
+- Preserve: Interviewer (anh Son) as a future reference point; the Masan research is live market intelligence regardless.
 
 ### Decision Timeline
 
-- **Hard deadline:** June 9–10, 2026 (must decide before Vingroup start date June 11, or on first day)
-- **Early YES trigger:** Scope confirmed as consumer tech PM, package ≥ Vingroup, lean-forward energy after interview
-- **Early NO trigger:** FMCG ops scope confirmed; or Vingroup withdrawal would burn a strategic relationship that matters more long-term
+- **Hard deadline:** June 12, 2026 (Masan decision gate per TASKS.md)
+- **Early YES trigger:** BU assignment is compelling, path to AI products is real, package ≥ Vingroup, lean-forward energy from the specific work (not just the brand)
+- **Early NO trigger:** Scope is permanently BI/dashboards; operational/frontline gap is a dealbreaker for them; or Vingroup withdrawal would burn a strategic relationship that matters more long-term
 
 ---
 
