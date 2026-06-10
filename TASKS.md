@@ -42,8 +42,9 @@
 ### MILESTONE: Masan Decision Gate (by 12 Jun)
 
 > Offline interview with Head of Data (anh Son) in HCM. Outcome determines HCM stay vs. HN relocation.
+> **JD received Jun 9:** Role is **Data Product Manager** (central Data & AI team) — operational data products for assigned BU. See `opportunities/masan.md` for full JD analysis.
 
-- [ ] **MS1** Prepare for Masan in-person interview — research anh Son's background, prepare data leadership case studies, rehearse
+- [ ] **MS1** Prepare for Masan in-person interview — review JD reframe (operational data products, not consumer tech), rehearse with updated framing, prepare honest gap acknowledgment for frontline/operational experience
 - [ ] **MS2** Masan outcome concluded — expected by **12 Jun**
   - **If PASS → stay HCM:** cancel Vingroup onboarding flight, no relocation needed
   - **If NO-GO → proceed HN relocation:** trigger all HN-move tasks below
