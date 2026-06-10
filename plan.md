@@ -1,120 +1,116 @@
-# Plan: Computex 2026 Event Workflow Optimizer
+# Plan: Split Vingroup Opportunity Files by Track (A, B, C)
 
 ## Context Summary
 
-**Who:** Ngoc Le, 12-year PM (AI/fintech), about to onboard as AI Alignment PM at Vingroup (June 22). Also has pending Masan interview.
+The monolithic `opportunities/vingroup.md` (~820 lines) contains three distinct opportunity tracks under the same Vingroup/VinSmartFuture umbrella. They share ~80% group context (org culture, compensation structure, recruiting entity, VP, market position) but differ in team lead, product domain, interview process, and outcome. Supporting files in `archive/` and `Vingroup-AIAlignment-PreOnboardingPrep/` are already track-specific but aren't organized consistently.
 
-**Devices:**
-- iPhone 12 mini: 256GB total, 159.4GB free, iOS 26.5, 2029 photos + 45 videos + 128 apps
-- HP Windows laptop: 475GB total, 215GB free, 123GB installed apps
-- Notion Personal Pro ($48/yr) — works on both devices
+**Track statuses:**
+- **Track A** — Hải Long's Team (Data Services) → `Redirected`
+- **Track B** — Mao's Team (Customer Service AI) → `Closed — Out of Budget`
+- **Track C** — Giáp Lê's Team (AI Alignment) → `Accepted (June 11, 2026)`
 
-**Events:** 72 Computex Taipei events (June 1-5) from CSV, spanning keynotes, forums, networking socials, exhibitor talks, guided tours, startup pitches, and 1 online event.
-
-**Budget constraint:** 20mil VND total travel budget already committed (flights booked). No per-event cost — all events are part of the Computex pass. The cost dimension becomes **opportunity cost** (energy + time spent at one event vs another).
+**Template:** `opportunities/masan.md` — used as the structural template for each track's cheatsheet.
 
 ---
 
-## Step 1: Score & Rank All Events
+## Output Files
 
-Score each event on 3 dimensions (1-5 scale each, total /15):
-
-### Scoring Criteria
-
-**Career Relevancy (to AI Alignment PM at Vingroup + Masan Data role):**
-- 5 = Directly about AI alignment, AI governance, data intelligence, generative AI applications
-- 4 = AI infrastructure, AI compute, applied AI for industry — strong contextual value
-- 3 = Robotics/edge AI, startup ecosystem, CEO vision keynotes — moderate context
-- 2 = Hardware/networking tech, ePaper, PC building — tangential
-- 1 = Government procurement, guided tours in Chinese — minimal career value
-
-**Energy Wellbeing (per Ngoc's operating manual: max 3 major cognitive switches/day, needs embodiment, needs variety without chaos):**
-- 5 = Short (≤1hr), engaging format, allows movement or social connection
-- 4 = Medium length, interesting topic, manageable cognitive load
-- 3 = Standard forum/keynote, passive listening
-- 2 = Long session (3+ hrs), heavy cognitive load, desk-bound
-- 1 = Conflicts with rest/meal times, or stacks too many sessions
-
-**Strategic Value (networking potential, unique access, can't-get-elsewhere):**
-- 5 = CEO keynote (once-only), exclusive social event, direct networking opportunity
-- 4 = Pitch contest finals, demo day — see latest startups
-- 3 = Forum with Q&A — can ask questions to panelists
-- 2 = Repeating exhibitor talk (same content multiple times)
-- 1 = Can be watched online/recorded later
-
-### Output: Ranked event list in CSV with scores
+| # | File | Content | Status |
+|---|---|---|---|
+| 1 | `opportunities/vingroup-shared.md` | Group-level context shared across all tracks (~80% overlap) | New |
+| 2 | `opportunities/vingroup-track-a-hailong.md` | Track A — Hải Long's Data Services team | New |
+| 3 | `opportunities/vingroup-track-b-mao.md` | Track B — Mao's Customer Service AI team | New |
+| 4 | `opportunities/vingroup-track-c-giap.md` | Track C — Giáp Lê's AI Alignment team | New |
+| 5 | `archive/vingroup_monolithic_pre-split.md` | Original `vingroup.md` preserved | Move |
 
 ---
 
-## Step 2: Categorize Events into 4 Workflow Types
+## Step 1: Create `opportunities/vingroup-shared.md`
 
-### Type A: "Keynote Absorb" (CEO keynotes, major forums)
-- **Nature:** Sit, listen, absorb industry vision. 1-way communication.
-- **Examples:** Qualcomm CEO, Intel CEO, Marvell CEO, NXP CEO keynotes; AI Compute forum
-- **Primary device:** Laptop (for rich note-taking) OR Phone (if seating is tight/standing)
-- **Workflow:** `audio record (phone) → live bullet notes (Notion) → post-session insight extraction (Claude) → question bank for networking`
+Group-level reference material that each track file links to. Contains:
 
-### Type B: "Forum Engage" (interactive forums with Q&A)
-- **Nature:** Listen + opportunity to ask questions to panelists
-- **Examples:** Robotics forum, AI Devices/IoT forum, Data Intelligence forum, Generative AI forum
-- **Primary device:** Phone for recording + Laptop for notes if table available
-- **Workflow:** `pre-generate questions (Claude) → audio record (phone) → live notes (Notion) → flag Q&A moments → post-session synthesis + follow-up questions (Claude)`
-
-### Type C: "Network & Converse" (social events, happy hours, pitch contests, demo days)
-- **Nature:** Mobile, 1-on-1 or small group conversations, walking between booths
-- **Examples:** Tech'em High, Astera Labs Happy Hour, EHA Gala, InnoVEX Demo Day, Opening Ceremony
-- **Primary device:** Phone only (hands-free, mobile)
-- **Workflow:** `question + talking points generated (Claude) → conversation → voice memo summary (phone) → post-event written summary (Notion) → insight extraction (Claude)`
-
-### Type D: "Remote/Async" (online events, repeating exhibitor talks)
-- **Nature:** Can attend from hotel/cafe with full setup
-- **Examples:** Canva AI online talk, any exhibitor talk that repeats
-- **Primary device:** Laptop (full setup)
-- **Workflow:** `watch stream → full notes (Notion on laptop) → immediate synthesis (Claude on laptop)`
+- **Header:** Vingroup / VinSmartFuture overview, dual-team track approach, VP (Phạm Nhật Hoàng) context
+- **Shared Opening Questions** (#1–15) — org-wide questions about culture, compensation structure, decision-making, contract entity
+- **Organization Research:** Team map, green/red flags, recruiting entity (VinSmartFuture), VinSmartFuture ecosystem analysis, market position, heir risk analysis, tokenized assets signal
+- **Shared Touchpoints:** Mar 5 CV submission, Mar 11 HR call, Mar 11 Tam side effect, Mar 13 interview prep, Apr 1 Dương Le call — these predate track differentiation or apply to the org broadly
+- **Shared 90-Day Friction:** Personality × Environment friction table (org-wide: sao đỏ, military culture, sign-off overhead, ENFP-7 patterns)
+- **Shared Competency Gaps:** General self-assessment against Vingroup environment
 
 ---
 
-## Step 3: Generate Preparation Instructions per Workflow Type
+## Step 2: Create `opportunities/vingroup-track-a-hailong.md`
 
-For each workflow type, produce actionable prep instructions covering:
+Following Masan template structure:
 
-1. **Night-before checklist** (storage cleanup, charging, app prep)
-2. **Morning-of checklist** (what to carry, what to leave at hotel)
-3. **During-event SOP** (which app to open, how to capture)
-4. **Post-event processing** (when + how to synthesize notes)
-
-### Device-specific prep (from screenshot specs):
-- **iPhone storage:** 159.4GB free — no cleanup needed. Plenty for audio recording + photos.
-- **Laptop storage:** 215GB free — no cleanup needed. Can serve as backup storage hub.
-- **Notion:** Personal Pro plan supports offline mode. Pre-load event templates before venue (WiFi may be unreliable at convention center).
-- **Key apps to have ready on phone:** Notion, Claude (claude.ai/code on mobile browser), voice recorder, camera
-- **Key apps on laptop:** Notion desktop, browser with Claude, any transcription tool
-
----
-
-## Step 4: Produce Final CSV Output
-
-Create a single CSV file with columns:
-```
-Rank, Date, Time, Event_Name, Category, Workflow_Type, Career_Score, Energy_Score, Strategic_Score, Total_Score, Recommended_Attend, Prep_Instructions, During_Workflow, Post_Event_Action, Device_Needed, Conflicts_With
-```
-
-This CSV becomes the single reference file Ngoc carries through Computex week.
+| Masan Section | Track A Content Source |
+|---|---|
+| Header (Type, Source, Status) | Track A description: Data Services team, lead Nguyễn Hải Long, `Redirected` |
+| Compass Filter | Unscored (redirected before formal per-track scoring) — note shared compass signals |
+| Emotional Read | Mar 19 post-interview: "Want the win (ego) but not the job" |
+| Opening Questions | Track A questions A1–A10 |
+| Research Notes | JD Analysis (risk JD, 50-60% fit), simulated role fits (Embedded Finance 82-88%), VinSmartFuture ecosystem context, Hải Long's profile |
+| Competency Map | Risk JD competency mapping, honest gaps, interviewer feedback |
+| Touchpoints | Mar 19 Director interview (detailed notes), Mar 22 redirect outcome |
+| Running Verdict | Track A entries (Mar 16 → Mar 22) |
+| 90-Day Onboarding | N/A — `Redirected before this stage` |
+| Strategic Roadmap | N/A — `Closed` |
+| Related Files | `archive/vingroup_hailong_prep_2026-03-19.md` |
 
 ---
 
-## Step 5: Commit & Push
+## Step 3: Create `opportunities/vingroup-track-b-mao.md`
 
-- Copy source CSV into repo
-- Write the output CSV with rankings + workflow instructions
-- Commit to branch `claude/youthful-wright-G1oks`
-- Push
+Following Masan template structure:
+
+| Masan Section | Track B Content Source |
+|---|---|
+| Header | Customer Service Data Service, lead Nguyễn Xuân Mão, `Closed — Out of Budget` |
+| Compass Filter | Unscored — note team-specific signals (0→1 build, clear scope) |
+| Emotional Read | "More engaged than Track A. The 0→1 nature and clear product scope feel right." |
+| Opening Questions | Track B questions B1–B8 |
+| Research Notes | Product architecture (5-layer), VinFast use cases, team dynamics (Mao/Hà/PMO/DS), package intel (T5–T4 range, SI on 70%) |
+| Competency Map | Portfolio artifacts mapping, Mao's interview feedback |
+| Touchpoints | Mar 24 pre-interview call, Mar 24/29 panel interview + feedback call, May 13 closure |
+| Running Verdict | Track B entries (Mar 22 → May 13) |
+| 90-Day Onboarding | N/A — `Closed` |
+| Strategic Roadmap | N/A — `Closed` |
+| Related Files | `archive/vingroup_mao_team_interview_prep_oral_test.md` |
 
 ---
 
-## Files to Create
-1. `computex-2026/events_source.csv` — copy of input data
-2. `computex-2026/computex_ranked_workflow_guide.csv` — the main deliverable
+## Step 4: Create `opportunities/vingroup-track-c-giap.md`
 
-## No External Dependencies
-All processing is done locally with the CSV data + context from the operating manual. No API calls or web fetches needed.
+The richest file — the accepted track. Following Masan template structure:
+
+| Masan Section | Track C Content Source |
+|---|---|
+| Header | AI Alignment / BKTT, lead Giáp Lê, `Offer Accepted (June 11, 2026)`. Includes scope of work, offer package details, working hours |
+| Compass Filter | Derived from shared compass + Track C interview data. Sovereignty: execution-with-coaching. Diversification: max cross-P&L, cross-market. Excellence: platform AI governance. |
+| Emotional Read | Across all Track C touchpoints (May 14, Dương call, May 15, offer acceptance) |
+| Opening Questions | Track C questions C1–C20 (richly answered) |
+| Research Notes | AI Alignment product definition (C1 confirmed), solution architecture (2-layer), 3 sub-domains, Giáp Lê leadership profile, org hierarchy (AI as Services → AI as Products transition) |
+| Competency Map | 72% fit, key advantage (FDCPA→guardrail → 3-domain mapping), key gaps (RAG, VN AI regulatory, conglomerate politics) |
+| Touchpoints | May 14 interview with Giáp, May 14 eve Dương due diligence, May 15 follow-up with Giáp, May 26 offer details, May 27 offer letter accepted |
+| Running Verdict | Track C entries (May 13 → May 27 accepted) |
+| Growth Model Analysis | Chip Huyen H1/H2/H3 framework (unique to Track C) |
+| 90-Day Onboarding | Full 90-day section from vingroup.md (most relevant to accepted track) |
+| Strategic Roadmap | Pre-decision (all resolved), If YES first 90 days, If NO exit strategy, decision timeline |
+| Related Files | All `Vingroup-AIAlignment-PreOnboardingPrep/` files |
+
+---
+
+## Step 5: Archive original & commit
+
+1. Move `opportunities/vingroup.md` → `archive/vingroup_monolithic_pre-split.md`
+2. Commit all changes with descriptive message
+3. Push to `claude/funny-planck-wxqaiq`
+
+---
+
+## Content Mapping Principles
+
+1. **No content duplication** — shared context lives in `vingroup-shared.md`, track files reference it via link
+2. **Masan template is structural guide** — sections that don't apply get a one-line note (`N/A — track closed before this stage`)
+3. **Touchpoints split by relevance** — pre-track touchpoints → shared; track-specific meetings → track file
+4. **Running verdict entries split** — each track gets only its verdict entries; shared file gets initial entries (Mar 5–Mar 13)
+5. **Existing supporting files stay in place** — track files reference them, don't absorb them
