@@ -259,15 +259,23 @@ What this actually gives you: I come pre-briefed on the fintech side of your con
 
 #### Recommended Answer
 
-The most relevant case: At Trusting Social, I owned AI compliance guardrail architecture for a US debt collection Voice Agent. The product had to comply with FDCPA (federal debt collection law) while the business team wanted to optimize for call conversion rate. Those two objectives are structurally in tension — every compliance guardrail adds friction to the debt collection conversation.
+At Trusting Social, I had a three-way conflict over how the AI Voice Agent verifies it's speaking to the right person before discussing the debt.
 
-The conflict: the AI team wanted to remove a state that was creating conversation dead-ends (a debtor triggering cease-communications, which halted the agent). The business team agreed — removal would improve conversation completion rates. The legal team said removal was a federal compliance violation.
+**The three positions:**
 
-My resolution: I reframed the problem from "remove the compliance state" to "make the compliance state handle itself more gracefully." Instead of blocking the conversation entirely, the state machine would acknowledge the cease request, confirm which channels were being ceased, and create a structured exit that still collected a callback number for human follow-up — legally compliant but not a dead-end for the business.
+Legal wanted the debtor to **provide their full name AND full date of birth** — maximum identity confirmation, safest for regulatory compliance.
 
-The principle for Masan: the FMCG operations team and the tech product team will have this tension frequently. Operations wants the product to fit their existing workflow. Tech wants the workflow to adapt to the better digital process. The PM's job is to find the architectural choice that delivers both — not choose sides.
+The tech team wanted verification information that **minimized false negatives in voice-to-text** — full name is hard to transcribe accurately (spelling variants, accents, background noise), and full date of birth is a long string of digits that compounds transcription error. Every false negative means a verified debtor gets rejected and the call dies.
 
-> **Tactical note:** This answer proves cross-functional navigation without making anyone the villain. The FDCPA/compliance frame is credible and specific — they'll remember it. The principle landing ("don't choose sides — find the architecture that delivers both") is what a senior Masan PM needs to do between FMCG operators and tech builders.
+The collection operations manager wanted the **highest true-positive verification rate** — every failed verification is a lost collection opportunity. They didn't care about the method, only the result: more verified right-person contacts.
+
+**My proposed solution:** The agent states the debtor's full name (eliminating the transcription risk on name) and asks them to provide only their **month and year of birth** — shorter, lower transcription error, still a meaningful identity signal. This gave legal a two-factor verification (name confirmation + partial DOB), gave tech a shorter and more transcribable input, and gave the collection manager a higher true-positive rate.
+
+**How I proved it:** A/B test on production — the redesigned flow vs. the original. The data showed higher conversion, lower false-verification risk, and the client granted exclusive approval to roll out the new flow.
+
+**The principle for Masan:** At a conglomerate, every data product sits at the intersection of multiple stakeholders with legitimate but conflicting requirements — BU operations wants speed, compliance wants controls, central tech wants clean data architecture. The PM's job is not to choose a side — it's to find the design that satisfies all three constraints simultaneously, then prove it with data so the decision isn't political.
+
+> **Tactical note (updated Jun 10):** This answer is stronger than the previous FDCPA/cease-comms example because: (1) it's a genuine **three-way** conflict (not two-way), which is harder to resolve and more impressive; (2) the resolution was **your creative proposal**, not a reframe of someone else's constraint; (3) you **proved it with production A/B data** and won client approval — not just internal consensus; (4) it connects to the same verification milestone as Q5, reinforcing a coherent narrative of data-driven operational optimization. If anh Son probes: "The A/B showed X% higher true-positive verification with no increase in false-verification incidents — the month+year DOB was sufficient identity signal while being dramatically easier for the speech model to transcribe accurately."
 
 ---
 
