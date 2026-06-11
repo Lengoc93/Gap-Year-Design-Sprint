@@ -2,22 +2,24 @@
 
 ## Critical Path Timeline (31 May → 22 Jun 2026)
 
-| Date | Event | Dependencies |
-|------|-------|-------------|
-| **01 Jun (Mon)** | Health check for VG onboarding (CX1) | Must complete before Taipei departure |
-| **01 Jun** | Submit Lý lịch tư pháp (#4) + Sơ yếu lý lịch (#1) requests | Gov processing time — start ASAP |
-| **02–05 Jun** | Computex 2026 Taipei | Flights booked |
-| **06 Jun** | TSMC museum tour + last Taipei days | Need booking (CX4) |
-| **06–09 Jun** | Taipei accommodation needed | Not yet booked (CX3) |
-| **07–08 Jun** | Free days in Taipei | No plan yet (CX5) |
-| **09 Jun** | Return flight to VN — buy tax-free gifts | CX6 |
-| **by 12 Jun** | Masan interview outcome (decision gate) | MS2 — determines HCM vs HN |
+> **Last updated:** 11 Jun 2026
+
+| Date | Event | Status |
+|------|-------|--------|
+| ~~01 Jun (Mon)~~ | ~~Health check for VG onboarding (CX1)~~ | ✅ Done |
+| ~~01 Jun~~ | ~~Submit Lý lịch tư pháp (#4) + Sơ yếu lý lịch (#1) requests~~ | ✅ Done |
+| ~~02–05 Jun~~ | ~~Computex 2026 Taipei~~ | ✅ Done |
+| ~~06 Jun~~ | ~~TSMC museum tour + last Taipei days~~ | ✅ Done |
+| ~~06–09 Jun~~ | ~~Taipei accommodation~~ | ✅ Done |
+| ~~07–08 Jun~~ | ~~Free days in Taipei~~ | ✅ Done |
+| ~~09 Jun~~ | ~~Return flight to VN — tax-free gifts~~ | ✅ Done |
+| **by 12 Jun** | Masan interview outcome (decision gate) | ⚠️ **TOMORROW** — MS2 determines HCM vs HN |
 | **12 Jun** | If HN: inform HCM landlord | Depends on MS2 |
-| **12–16 Jun** | If HN: farewell meetups + moving | HN2, HN3, HN4 |
-| **15–17 Jun** | TCTN Window 2 — in-person HCM | G13 — conflicts with move crunch |
-| **16 Jun** | If HN: all moving complete (hard deadline) | HN4 |
-| **18 Jun** | Flight HCM → Ha Noi | Booked |
-| **22 Jun** | Vingroup onboarding day | All VG1 docs ready |
+| **12–16 Jun** | If HN: farewell meetups + moving | HN2, HN3, HN4 — **5 days left** |
+| **15–17 Jun** | TCTN Window 2 — in-person HCM with CCCD | G13 — **4 days away**, conflicts with move crunch |
+| **16 Jun** | If HN: all moving complete (hard deadline) | HN4 — **5 days left** |
+| **18 Jun** | Flight HCM → Ha Noi | Booked — **7 days away** |
+| **22 Jun** | Vingroup onboarding day | All VG1 docs must be ready — **11 days away** |
 
 ## Active — Phase 2 (May 16 → Aug 17, 2026)
 
