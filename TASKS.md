@@ -26,18 +26,18 @@
 
 ---
 
-### MILESTONE: Computex Taipei (02 Jun → 09 Jun)
+### MILESTONE: Computex Taipei (02 Jun → 09 Jun) ✅
 
-- [ ] **CX1** Health check for Vingroup onboarding — ⚠️ **due 01 Jun (Mon)** before departing HCM
-- [ ] **CX2** Computex note-taking & networking strategy
-  - [ ] Research AI-powered real-time transcription tools (e.g. Plaud Note, Otter.ai, Whisper-based recorders)
-  - [ ] Evaluate: buy dedicated AI recording device vs. phone app + subscription
-  - [ ] Prepare networking kit (business cards / digital card, LinkedIn QR, elevator pitch)
-  - [ ] Plan which keynotes/booths to prioritize for audio capture
-- [ ] **CX3** Book accommodation for **06 Jun → 09 Jun** in Taipei
-- [ ] **CX4** Book TSMC museum tour for **06 Jun**
-- [ ] **CX5** Plan itinerary for **07 Jun → 08 Jun** in Taipei (sightseeing / meetings / rest)
-- [ ] **CX6** Buy tax-free gifts at Taipei airport on return — masks or snacks for VN friends/relatives
+- [x] **CX1** Health check for Vingroup onboarding — ⚠️ **due 01 Jun (Mon)** before departing HCM
+- [x] **CX2** Computex note-taking & networking strategy
+  - [x] Research AI-powered real-time transcription tools (e.g. Plaud Note, Otter.ai, Whisper-based recorders)
+  - [x] Evaluate: buy dedicated AI recording device vs. phone app + subscription
+  - [x] Prepare networking kit (business cards / digital card, LinkedIn QR, elevator pitch)
+  - [x] Plan which keynotes/booths to prioritize for audio capture
+- [x] **CX3** Book accommodation for **06 Jun → 09 Jun** in Taipei
+- [x] **CX4** Book TSMC museum tour for **06 Jun**
+- [x] **CX5** Plan itinerary for **07 Jun → 08 Jun** in Taipei (sightseeing / meetings / rest)
+- [x] **CX6** Buy tax-free gifts at Taipei airport on return — masks or snacks for VN friends/relatives
 
 ### MILESTONE: Masan Decision Gate (by 12 Jun)
 
