@@ -1,0 +1,10 @@
+#,Item Name,Quantity,Current Room,Category,Condition,Fragile,Priority
+1,Washing Machine,1,Balcony,Large Appliance,Good,No,High
+2,Dryer,1,Balcony,Large Appliance,Good,No,High
+3,Computer Monitor,1,Home Office,Electronics,Good,Yes,High
+4,Computer Input Devices (Keyboard + Mouse),1 set,Home Office,Electronics,Good,No,Medium
+5,Air Purifier,1,Home Office,Electronics,Good,No,Medium
+6,Vacuum Cleaners (Stick + Robot),2,Bedroom,Electronics,Good,No,Medium
+7,Smart Speaker,1,Bedroom,Electronics,Good,Yes,Medium
+8,Standing Floor Lamp,1,Bedroom,Lighting,Good,No,Low
+9,Electric Foot Spa,1,Bedroom,Personal Care Appliance,Good,No,Low
