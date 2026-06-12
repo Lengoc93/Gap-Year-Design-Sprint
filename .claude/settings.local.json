@@ -25,7 +25,8 @@
       "WebFetch(domain:www.diva-portal.org)",
       "WebFetch(domain:intra.kth.se)",
       "WebFetch(domain:wasp-sweden.org)",
-      "WebFetch(domain:kth.diva-portal.org)"
+      "WebFetch(domain:kth.diva-portal.org)",
+      "mcp__130eb50e-64b9-45a7-8129-e6b06ddc6df5__create_event"
     ]
   }
 }
