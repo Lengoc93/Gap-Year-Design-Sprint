@@ -2,7 +2,7 @@
 
 ## Critical Path Timeline (31 May → 22 Jun 2026)
 
-> **Last updated:** 11 Jun 2026
+> **Last updated:** 14 Jun 2026 — **Masan = NO-GO confirmed → Go HN**
 
 | Date | Event | Status |
 |------|-------|--------|
@@ -10,7 +10,7 @@
 | ~~01 Jun~~ | ~~Online submit Lý lịch tư pháp (#4) + Sơ yếu lý lịch (#1)~~ | ✅ Done (online rejected by gov) |
 | ~~02–09 Jun~~ | ~~Computex 2026 Taipei + TSMC museum + sightseeing~~ | ✅ Done |
 | ~~10 Jun~~ | ~~Masan interview prep (MS1)~~ | ✅ Done |
-| **by 12 Jun** | Masan interview outcome (decision gate) | ⚠️ **TOMORROW** — MS2 determines HCM vs HN |
+| ~~by 12 Jun~~ | ~~Masan interview outcome (decision gate)~~ | ✅ **NO-GO (confirmed 14 Jun)** → Go HN |
 | **by 12 Jun** | Offline submit Sơ yếu lý lịch (VG#1) — same-day issuance | ⚠️ **Must do by 12 Jun** |
 | **by 12 Jun** | Offline submit Lý lịch tư pháp (VG#4) — ~5 working days processing | ⚠️ **Must do by 12 Jun** (Vin accepts proof of request) |
 | **by 12 Jun** | Check airline cancellation policy for 18 Jun flight | Before/after MS2 — inform booking decision |
@@ -50,11 +50,11 @@
 > **JD received Jun 9:** Role is **Data Product Manager** (central Data & AI team) — operational data products for assigned BU. See `opportunities/masan.md` for full JD analysis.
 
 - [x] **MS1** Prepare for Masan in-person interview — ✅ Done 10 Jun
-- [ ] **MS2** Masan outcome concluded — expected by **12 Jun**
-  - **If PASS → stay HCM:** check airline cancellation policy, cancel Vingroup onboarding flight, no relocation needed
-  - **If NO-GO → proceed HN relocation:** trigger all HN-move tasks below
+- [x] **MS2** Masan outcome concluded — **NO-GO (confirmed 14 Jun)** → HN relocation triggered
+  - ~~If PASS → stay HCM~~
+  - ✅ **NO-GO → proceeding with HN relocation** — all HN-move tasks below are active
 
-### MILESTONE: HN Relocation (conditional on Masan = NO-GO, deadline 16 Jun)
+### MILESTONE: HN Relocation (CONFIRMED — Masan NO-GO, deadline 16 Jun)
 
 > All moving must be completed by **16 Jun**. Flight to Ha Noi booked **18 Jun**. Vingroup onboarding **22 Jun**.
 
@@ -67,6 +67,21 @@
   - [ ] Items to **leave at HCM storage** (arrange storage location)
   - [ ] Items to **give to relatives**
 - [ ] **HN4** Complete all physical moving — **hard deadline 16 Jun**
+- [ ] **HN5** Book flight ticket HCM → Ha Noi — **book today (14 Jun)**, target fly out **19 Jun** ⚠️ supersedes prior 18 Jun booking — reconcile/rebook
+- [ ] **HN6** Post listing of the HCM unit across social channels (re-let / handover)
+- [ ] **HN7** Finalize the list of items in the HCM unit (master inventory → feeds HN3 sort)
+- [ ] **HN8** Pack **30kg** to carry to Ha Noi — covers ~2 weeks of use while courier shipment (~1 month) is in transit
+
+### MILESTONE: Vingroup Pre-Onboarding Prep
+
+> Prep docs in `Vingroup-AIAlignment-PreOnboardingPrep/`. Onboarding 22 Jun.
+
+- [ ] **VG2** Meet online with **Hong Hieu** (Vingroup — AI Alignment team) — **20:00, 15 Jun**, 1 hour
+- [ ] **VG3** Prep list of questions to send Hong Hieu — **before VG2 (15 Jun)**
+
+### MILESTONE: 15 Jun — Scheduled
+
+- [ ] **D15** Lunch with **Minh Pham** (HN2 farewell), then complete **BHTN** reporting — **15 Jun** (BHTN receipt needed before form #17 notification, ref G13 Window 2)
 
 ### MILESTONE: TCTN Window 2 (15–17 Jun)
 
